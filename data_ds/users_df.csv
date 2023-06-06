@@ -1,0 +1,735 @@
+,user_id,name,gender,age,year,email,programme,categories
+0,1,Maura Robledo-Cerdán,female,19,4,maurarobledo-cerdán@edem.es,BBA in Business Administration,['Finance and Investment']
+1,2,Consuelo Azorin,female,18,1,consueloazorin@edem.es,BSc in Engineering and Management,"['Management Skills', 'Finance and Investment', 'Finance and Investment']"
+2,3,Eva María Segura Roma,female,18,1,evamaríaseguraroma@edem.es,BBA in Business Administration,"['Finance and Investment', 'Technology', 'Finance and Investment', 'Management Skills', 'Technology']"
+3,4,Lucio de Ros,male,18,4,lucioderos@edem.es,BSc in Engineering and Management,['Technology']
+4,5,Marcio Hurtado Fábregas,male,27,1,marciohurtadofábregas@edem.es,Master Marketing and Digital Sales,"['Technology', 'Technology', 'Management Skills', 'Marketing', 'Business Management']"
+5,6,Luciano Múgica-Perea,male,19,4,lucianomúgica-perea@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills']"
+6,7,Guillermo Valentín Aller,male,27,1,guillermovalentínaller@edem.es,MBA Junior,"['Management Skills', 'Business Management']"
+7,8,Teófilo Vizcaíno,male,19,1,teófilovizcaíno@edem.es,BSc in Engineering and Management,['Finance and Investment']
+8,9,Dan Esteban-Morales,male,20,2,danesteban-morales@edem.es,BBA in Business Administration,['Management Skills']
+9,10,Victor del Boada,male,18,1,victordelboada@edem.es,BSc in Engineering and Management,"['Business Management', 'Marketing', 'Business Management']"
+10,11,Paco Gual,male,18,4,pacogual@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Marketing', 'Finance and Investment', 'Management Skills', 'Business Management']"
+11,12,Josefa Morales,female,18,2,josefamorales@edem.es,BBA in Business Administration,"['Technology', 'Business Management', 'Finance and Investment']"
+12,13,Glauco Millán,male,18,1,glaucomillán@edem.es,BSc in Engineering and Management,"['Business Management', 'Marketing']"
+13,14,Feliciano Navas Melero,male,19,4,felicianonavasmelero@edem.es,BSc in Engineering and Management,"['Marketing', 'Management Skills']"
+14,15,Graciela Quirós Vega,female,18,4,gracielaquirósvega@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills', 'Management Skills', 'Management Skills']"
+15,16,Reynaldo Vilalta Moll,male,18,3,reynaldovilaltamoll@edem.es,BBA in Business Administration,"['Business Management', 'Business Management', 'Finance and Investment']"
+16,17,Marisa Gargallo Adán,female,19,4,marisagargalloadán@edem.es,BSc in Engineering and Management,"['Technology', 'Management Skills']"
+17,18,Bruno Perelló Mayol,male,19,3,brunoperellómayol@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing', 'Business Management', 'Technology']"
+18,19,Ximena Pont Álvarez,female,23,1,ximenapontálvarez@edem.es,Master Marketing and Digital Sales,"['Marketing', 'Business Management', 'Management Skills']"
+19,20,Abraham Tenorio Osuna,male,18,1,abrahamtenorioosuna@edem.es,BSc in Engineering and Management,['Marketing']
+20,21,Sebastián Zapata Casado,male,23,1,sebastiánzapatacasado@edem.es,Master Marketing and Digital Sales,"['Management Skills', 'Management Skills', 'Marketing', 'Marketing']"
+21,22,Alcides Barrera Batlle,male,19,4,alcidesbarrerabatlle@edem.es,BBA in Business Administration,"['Management Skills', 'Technology', 'Marketing']"
+22,23,Albert Batlle Fabregat,male,20,1,albertbatllefabregat@edem.es,BBA in Business Administration,"['Finance and Investment', 'Finance and Investment', 'Business Management', 'Technology']"
+23,24,Andrés Felipe Alemany-Mas,male,18,3,andrésfelipealemany-mas@edem.es,BSc in Engineering and Management,"['Technology', 'Technology', 'Management Skills', 'Marketing', 'Finance and Investment']"
+24,25,Juan Luis Giner Ortiz,male,22,1,juanluisginerortiz@edem.es,Bootcamp Data Science,"['Finance and Investment', 'Finance and Investment', 'Finance and Investment', 'Business Management']"
+25,26,Tadeo Alejo Ballesteros Jáuregui,male,20,1,tadeoalejoballesterosjáuregui@edem.es,BBA in Business Administration,"['Technology', 'Management Skills', 'Technology', 'Technology']"
+26,27,Celestina del Anglada,female,19,2,celestinadelanglada@edem.es,BSc in Engineering and Management,"['Marketing', 'Marketing', 'Finance and Investment']"
+27,28,Hermenegildo Sabas Moreno Hurtado,male,18,2,hermenegildosabasmorenohurtado@edem.es,BSc in Engineering and Management,['Business Management']
+28,29,Jonatan del Ropero,male,24,1,jonatandelropero@edem.es,Master Data Analytics,"['Business Management', 'Business Management', 'Management Skills', 'Management Skills', 'Finance and Investment']"
+29,30,Víctor Herranz Heredia,male,18,3,víctorherranzheredia@edem.es,BBA in Business Administration,['Marketing']
+30,31,María Manuela Calderon Cases,female,26,1,maríamanuelacalderoncases@edem.es,Master Marketing and Digital Sales,"['Marketing', 'Business Management', 'Technology']"
+31,32,Edelmiro Iriarte Santos,male,21,4,edelmiroiriartesantos@edem.es,BBA in Business Administration,['Marketing']
+32,33,Julie Ramírez Pedraza,female,18,3,julieramírezpedraza@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Finance and Investment']"
+33,34,Amada Matas Hervia,female,25,1,amadamatashervia@edem.es,Bootcamp Full Stack,"['Business Management', 'Technology', 'Business Management']"
+34,35,Jose Antonio Barral Anglada,male,18,1,joseantoniobarralanglada@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Technology', 'Finance and Investment', 'Management Skills']"
+35,36,Flavio Marti Alemán,male,18,3,flaviomartialemán@edem.es,BBA in Business Administration,"['Management Skills', 'Management Skills', 'Technology']"
+36,37,Anunciación Figueroa Hernández,female,27,1,anunciaciónfigueroahernández@edem.es,Master Data Analytics,['Finance and Investment']
+37,38,Juliana Ayllón Bernal,female,20,3,julianaayllónbernal@edem.es,BBA in Business Administration,"['Marketing', 'Marketing', 'Technology', 'Finance and Investment']"
+38,39,Bibiana Estrada-Baeza,female,24,1,bibianaestrada-baeza@edem.es,Master Finance,"['Marketing', 'Finance and Investment', 'Technology', 'Business Management']"
+39,40,Rufina Gracia Bueno,female,19,3,rufinagraciabueno@edem.es,BBA in Business Administration,"['Marketing', 'Business Management']"
+40,41,Ovidio Bartolomé Crespi,male,20,4,ovidiobartolomécrespi@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills']"
+41,42,Sabina Rocamora Noguera,female,19,1,sabinarocamoranoguera@edem.es,BSc in Engineering and Management,"['Technology', 'Technology', 'Finance and Investment']"
+42,43,Isabela del Fajardo,female,19,1,isabeladelfajardo@edem.es,BBA in Business Administration,"['Finance and Investment', 'Finance and Investment']"
+43,44,Abraham Chico Vilaplana,male,21,1,abrahamchicovilaplana@edem.es,BBA in Business Administration,"['Management Skills', 'Management Skills', 'Finance and Investment', 'Business Management', 'Management Skills']"
+44,45,Diego Cervantes Tenorio,male,18,1,diegocervantestenorio@edem.es,BSc in Engineering and Management,['Marketing']
+45,46,Darío Perea,male,19,1,daríoperea@edem.es,BBA in Business Administration,['Technology']
+46,47,Sosimo Coca-Sanz,male,20,2,sosimococa-sanz@edem.es,BSc in Engineering and Management,"['Business Management', 'Management Skills', 'Finance and Investment']"
+47,48,Milagros Plana Aragón,female,19,1,milagrosplanaaragón@edem.es,BBA in Business Administration,"['Technology', 'Management Skills', 'Technology', 'Technology', 'Finance and Investment']"
+48,49,Pepe Girón Huertas,male,20,3,pepegirónhuertas@edem.es,BBA in Business Administration,"['Management Skills', 'Technology', 'Marketing', 'Finance and Investment']"
+49,50,Mario Adrián Escrivá Iriarte,male,19,1,marioadriánescriváiriarte@edem.es,BBA in Business Administration,['Finance and Investment']
+50,51,Guiomar Camps Quevedo,male,19,1,guiomarcampsquevedo@edem.es,BBA in Business Administration,"['Marketing', 'Finance and Investment', 'Finance and Investment']"
+51,52,José María Escalona-Guerrero,male,18,4,josémaríaescalona-guerrero@edem.es,BSc in Engineering and Management,"['Technology', 'Technology', 'Management Skills', 'Management Skills', 'Marketing']"
+52,53,Jovita Marco Sanmiguel,female,18,1,jovitamarcosanmiguel@edem.es,BBA in Business Administration,"['Marketing', 'Marketing', 'Finance and Investment', 'Business Management']"
+53,54,Angelina Serna Jordá,female,26,1,angelinasernajordá@edem.es,MBA Junior,"['Marketing', 'Marketing', 'Marketing', 'Marketing', 'Finance and Investment']"
+54,55,Carlito del Bartolomé,male,18,4,carlitodelbartolomé@edem.es,BBA in Business Administration,"['Technology', 'Marketing', 'Marketing', 'Finance and Investment']"
+55,56,Camilo Pellicer Gimenez,male,18,3,camilopellicergimenez@edem.es,BBA in Business Administration,['Marketing']
+56,57,Amado Vallés Diego,male,18,3,amadovallésdiego@edem.es,BSc in Engineering and Management,"['Marketing', 'Business Management', 'Management Skills']"
+57,58,Eric Baudelio Gibert Castelló,male,18,4,ericbaudeliogibertcastelló@edem.es,BBA in Business Administration,"['Business Management', 'Technology', 'Finance and Investment', 'Management Skills', 'Finance and Investment']"
+58,59,Cirino Iglesia Jaume,male,18,3,cirinoiglesiajaume@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Management Skills', 'Finance and Investment', 'Technology', 'Marketing']"
+59,60,Eric del Peláez,male,19,1,ericdelpeláez@edem.es,BBA in Business Administration,"['Finance and Investment', 'Marketing', 'Finance and Investment', 'Finance and Investment', 'Technology']"
+60,61,Nando del Lorenzo,male,21,1,nandodellorenzo@edem.es,Bootcamp UX/ UI,"['Technology', 'Marketing']"
+61,62,Severiano Peláez,male,18,4,severianopeláez@edem.es,BBA in Business Administration,"['Management Skills', 'Technology', 'Business Management', 'Technology', 'Technology']"
+62,63,Carlos Escolano Cuéllar,male,18,3,carlosescolanocuéllar@edem.es,BBA in Business Administration,"['Management Skills', 'Management Skills', 'Business Management', 'Management Skills', 'Management Skills']"
+63,64,Roberta Salvà Cuevas,female,18,4,robertasalvàcuevas@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills']"
+64,65,Marcos Laguna Camps,male,23,1,marcoslagunacamps@edem.es,Master Data Analytics,"['Marketing', 'Marketing', 'Finance and Investment']"
+65,66,Esther Villegas Girón,female,26,1,esthervillegasgirón@edem.es,Master Marketing and Digital Sales,"['Marketing', 'Marketing', 'Finance and Investment', 'Management Skills', 'Management Skills']"
+66,67,Saturnina Malena Cuesta Tello,female,18,1,saturninamalenacuestatello@edem.es,BBA in Business Administration,"['Marketing', 'Marketing', 'Management Skills']"
+67,68,Guillermo de Lladó,male,21,1,guillermodelladó@edem.es,BSc in Engineering and Management,"['Technology', 'Technology']"
+68,69,Ángel Gordillo Pont,male,19,1,ángelgordillopont@edem.es,BBA in Business Administration,"['Business Management', 'Marketing', 'Business Management']"
+69,70,Mireia Montero Castells,female,19,1,mireiamonterocastells@edem.es,BBA in Business Administration,['Business Management']
+70,71,Teodosio del Folch,male,18,4,teodosiodelfolch@edem.es,BSc in Engineering and Management,"['Management Skills', 'Business Management', 'Marketing', 'Finance and Investment', 'Finance and Investment']"
+71,72,Alfredo Villanueva Revilla,male,20,1,alfredovillanuevarevilla@edem.es,Bootcamp Data Science,['Business Management']
+72,73,Armando Andres Cobos,male,26,1,armandoandrescobos@edem.es,Master Finance,"['Management Skills', 'Business Management']"
+73,74,Francisco Javier Sarabia Guillén,male,19,1,franciscojaviersarabiaguillén@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management', 'Management Skills']"
+74,75,María Acuña Cuéllar,male,18,4,maríaacuñacuéllar@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing', 'Finance and Investment', 'Business Management']"
+75,76,Áurea Cuenca Izaguirre,female,18,1,áureacuencaizaguirre@edem.es,BBA in Business Administration,"['Finance and Investment', 'Management Skills', 'Finance and Investment']"
+76,77,Fanny Iglesias Sales,female,23,1,fannyiglesiassales@edem.es,MBA Junior,"['Finance and Investment', 'Technology', 'Business Management']"
+77,78,Urbano Rozas,male,21,2,urbanorozas@edem.es,BBA in Business Administration,"['Finance and Investment', 'Finance and Investment', 'Marketing', 'Marketing', 'Technology']"
+78,79,Nazario Atilio Posada Cazorla,male,19,1,nazarioatilioposadacazorla@edem.es,BBA in Business Administration,"['Technology', 'Finance and Investment', 'Finance and Investment']"
+79,80,Natalia Fernandez,female,19,1,nataliafernandez@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing', 'Marketing']"
+80,81,Amaya Álvaro Vives,female,19,3,amayaálvarovives@edem.es,BBA in Business Administration,['Marketing']
+81,82,Fito Barrena Tomas,male,20,1,fitobarrenatomas@edem.es,BBA in Business Administration,"['Business Management', 'Business Management']"
+82,83,Anacleto Sabater-Chico,male,19,3,anacletosabater-chico@edem.es,BBA in Business Administration,"['Business Management', 'Marketing', 'Technology']"
+83,84,Anastasia Roura Bárcena,female,26,1,anastasiarourabárcena@edem.es,MBA Junior,"['Business Management', 'Marketing', 'Management Skills', 'Finance and Investment', 'Business Management']"
+84,85,Enrique Esteve Roselló,male,18,2,enriqueesteveroselló@edem.es,BBA in Business Administration,"['Marketing', 'Finance and Investment']"
+85,86,José Manuel Donoso-Ferrero,male,18,4,josémanueldonoso-ferrero@edem.es,BSc in Engineering and Management,"['Business Management', 'Technology', 'Business Management']"
+86,87,Ulises de Zapata,male,29,1,ulisesdezapata@edem.es,Bootcamp Cibersecurity,"['Management Skills', 'Business Management']"
+87,88,Cesar Pol-Iriarte,male,18,2,cesarpol-iriarte@edem.es,BBA in Business Administration,['Management Skills']
+88,89,Julián Silva-Figueras,male,18,2,juliánsilva-figueras@edem.es,BSc in Engineering and Management,['Marketing']
+89,90,Nayara Trillo Hoz,female,18,1,nayaratrillohoz@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Marketing']"
+90,91,Edgardo Asenjo Martínez,male,21,2,edgardoasenjomartínez@edem.es,BSc in Engineering and Management,"['Management Skills', 'Business Management', 'Management Skills']"
+91,92,Ciríaco Muñoz Manjón,male,20,3,ciríacomuñozmanjón@edem.es,BBA in Business Administration,['Business Management']
+92,93,Imelda Duran Acosta,female,27,1,imeldaduranacosta@edem.es,Master Marketing and Digital Sales,"['Management Skills', 'Marketing', 'Marketing', 'Management Skills']"
+93,94,Celso Borja Perez,male,18,2,celsoborjaperez@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing', 'Technology', 'Marketing', 'Finance and Investment']"
+94,95,Seve de Cano,male,19,1,sevedecano@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Marketing', 'Management Skills']"
+95,96,Agustina Amat Belmonte,female,18,1,agustinaamatbelmonte@edem.es,BBA in Business Administration,['Technology']
+96,97,Curro Requena Portillo,male,29,1,currorequenaportillo@edem.es,Bootcamp Cibersecurity,"['Business Management', 'Management Skills', 'Business Management']"
+97,98,Candelas del Coca,female,21,3,candelasdelcoca@edem.es,BBA in Business Administration,"['Finance and Investment', 'Marketing', 'Finance and Investment', 'Finance and Investment', 'Technology']"
+98,99,Jorge Expósito Miguel,male,22,1,jorgeexpósitomiguel@edem.es,Bootcamp Full Stack,"['Marketing', 'Technology', 'Business Management', 'Business Management', 'Business Management']"
+99,100,Asdrubal Palomino Santiago,male,26,1,asdrubalpalominosantiago@edem.es,Master Finance,"['Technology', 'Marketing', 'Marketing']"
+100,101,Ale Ferrera Corominas,female,18,1,aleferreracorominas@edem.es,BSc in Engineering and Management,"['Management Skills', 'Marketing', 'Business Management', 'Management Skills', 'Management Skills']"
+101,102,Salomón Camacho Gárate,male,18,4,salomóncamachogárate@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management', 'Technology', 'Finance and Investment']"
+102,103,Lisandro Valbuena,male,18,4,lisandrovalbuena@edem.es,BBA in Business Administration,"['Business Management', 'Marketing', 'Business Management', 'Management Skills']"
+103,104,Camila Cornejo,female,19,3,camilacornejo@edem.es,BBA in Business Administration,"['Marketing', 'Management Skills', 'Management Skills', 'Business Management', 'Business Management']"
+104,105,Juanito Marin Alberola,male,18,1,juanitomarinalberola@edem.es,BBA in Business Administration,"['Technology', 'Technology', 'Management Skills']"
+105,106,Cebrián Higueras-Zorrilla,male,19,4,cebriánhigueras-zorrilla@edem.es,BBA in Business Administration,"['Business Management', 'Marketing', 'Business Management', 'Business Management']"
+106,107,Benjamín Garzón Morales,male,20,2,benjamíngarzónmorales@edem.es,BSc in Engineering and Management,"['Technology', 'Business Management', 'Management Skills']"
+107,108,Guiomar Castell Isern,male,18,2,guiomarcastellisern@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills']"
+108,109,Zacarías del Montalbán,male,18,2,zacaríasdelmontalbán@edem.es,BBA in Business Administration,"['Finance and Investment', 'Finance and Investment']"
+109,110,Dalila Noelia Cordero Ricart,female,28,1,dalilanoeliacorderoricart@edem.es,Bootcamp Data Science,"['Business Management', 'Business Management', 'Technology', 'Marketing']"
+110,111,Manola Irma Collado Gisbert,female,23,1,manolairmacolladogisbert@edem.es,Master Finance,"['Finance and Investment', 'Business Management', 'Technology', 'Management Skills', 'Business Management']"
+111,112,José Ángel Múñiz,male,21,1,joséángelmúñiz@edem.es,BBA in Business Administration,['Marketing']
+112,113,Cloe de Armas,female,19,2,cloedearmas@edem.es,BBA in Business Administration,['Business Management']
+113,114,Salud Guardia Salcedo,female,18,3,saludguardiasalcedo@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Marketing']"
+114,115,Elías Luna Jordá,male,27,1,elíaslunajordá@edem.es,MBA Junior,"['Technology', 'Technology', 'Marketing', 'Finance and Investment', 'Finance and Investment']"
+115,116,Aureliano Vázquez,male,26,1,aurelianovázquez@edem.es,Master Finance,"['Business Management', 'Marketing', 'Technology', 'Marketing']"
+116,117,Chucho Barrera-Godoy,male,18,1,chuchobarrera-godoy@edem.es,BBA in Business Administration,"['Business Management', 'Business Management', 'Technology', 'Marketing']"
+117,118,Luna Ureña Arteaga,female,18,4,lunaureñaarteaga@edem.es,BBA in Business Administration,"['Technology', 'Finance and Investment', 'Marketing', 'Technology', 'Business Management']"
+118,119,Demetrio Cuesta Gonzalez,male,19,3,demetriocuestagonzalez@edem.es,BBA in Business Administration,"['Business Management', 'Technology', 'Business Management']"
+119,120,Benigno Briones-Higueras,male,19,3,benignobriones-higueras@edem.es,BSc in Engineering and Management,"['Technology', 'Business Management', 'Management Skills']"
+120,121,Gonzalo Zamora Berrocal,male,24,1,gonzalozamoraberrocal@edem.es,Master Marketing and Digital Sales,"['Management Skills', 'Technology', 'Finance and Investment']"
+121,122,Fidel Adadia Cámara,male,18,3,fideladadiacámara@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment']"
+122,123,Renato Pedrosa Cazorla,male,25,1,renatopedrosacazorla@edem.es,Master Marketing and Digital Sales,"['Finance and Investment', 'Technology']"
+123,124,Pío Serna Velasco,male,18,3,píosernavelasco@edem.es,BBA in Business Administration,"['Technology', 'Finance and Investment', 'Marketing', 'Management Skills', 'Business Management']"
+124,125,Herminio Padilla Expósito,male,18,1,herminiopadillaexpósito@edem.es,BSc in Engineering and Management,['Marketing']
+125,126,Teodoro Dominguez Galvez,male,21,1,teodorodominguezgalvez@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment', 'Management Skills', 'Business Management', 'Marketing']"
+126,127,Bernardino Maximiano Verdú Lillo,male,19,1,bernardinomaximianoverdúlillo@edem.es,BSc in Engineering and Management,"['Technology', 'Business Management', 'Business Management', 'Marketing']"
+127,128,Luis Miguel Castrillo Mateu,male,24,1,luismiguelcastrillomateu@edem.es,MBA Junior,"['Management Skills', 'Technology', 'Finance and Investment', 'Management Skills']"
+128,129,Marcelo de Barrios,male,25,1,marcelodebarrios@edem.es,Master Finance,"['Business Management', 'Marketing', 'Marketing', 'Marketing']"
+129,130,Blas Ribera Moya,male,24,1,blasriberamoya@edem.es,Master Data Analytics,"['Finance and Investment', 'Management Skills', 'Technology', 'Finance and Investment', 'Business Management']"
+130,131,Ana Belén de Sotelo,female,21,1,anabeléndesotelo@edem.es,BBA in Business Administration,"['Marketing', 'Finance and Investment']"
+131,132,Maximino Gallart Valera,male,20,1,maximinogallartvalera@edem.es,BSc in Engineering and Management,"['Management Skills', 'Management Skills', 'Management Skills']"
+132,133,Gerónimo Estevez,male,27,1,gerónimoestevez@edem.es,Master Finance,"['Management Skills', 'Marketing', 'Technology', 'Marketing']"
+133,134,Hilario Bermejo Cano,male,42,1,hilariobermejocano@edem.es,Bootcamp Data Science,"['Finance and Investment', 'Technology', 'Marketing', 'Management Skills']"
+134,135,Francisco Mohamed Ortuño Domínguez,male,18,1,franciscomohamedortuñodomínguez@edem.es,BSc in Engineering and Management,['Business Management']
+135,136,Salvador Arregui Quirós,male,19,2,salvadorarreguiquirós@edem.es,BBA in Business Administration,['Business Management']
+136,137,María Fernanda Higueras-Morante,female,19,1,maríafernandahigueras-morante@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Finance and Investment']"
+137,138,Iris Caparrós Enríquez,female,27,1,iriscaparrósenríquez@edem.es,Master Marketing and Digital Sales,"['Management Skills', 'Technology']"
+138,139,Prudencio de Morera,male,23,1,prudenciodemorera@edem.es,Master Marketing and Digital Sales,['Technology']
+139,140,Herberto Catalán-Cerdá,male,19,2,herbertocatalán-cerdá@edem.es,BSc in Engineering and Management,"['Technology', 'Management Skills']"
+140,141,Hernán Merino Lobato,male,18,2,hernánmerinolobato@edem.es,BBA in Business Administration,"['Finance and Investment', 'Business Management', 'Business Management']"
+141,142,Wálter Villena-Martin,male,19,3,wáltervillena-martin@edem.es,BBA in Business Administration,['Business Management']
+142,143,José Luis Vaquero Mayol,male,18,1,joséluisvaqueromayol@edem.es,BBA in Business Administration,"['Marketing', 'Finance and Investment']"
+143,144,Celso Palmer Arjona,male,27,1,celsopalmerarjona@edem.es,Master Finance,['Marketing']
+144,145,María Del Carmen Bueno,female,18,2,maríadelcarmenbueno@edem.es,BBA in Business Administration,"['Business Management', 'Marketing', 'Management Skills', 'Business Management', 'Finance and Investment']"
+145,146,Cruz Escribano Ramis,female,18,4,cruzescribanoramis@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Business Management']"
+146,147,Jose Luis Montoya Pol,male,21,3,joseluismontoyapol@edem.es,BBA in Business Administration,"['Marketing', 'Business Management', 'Technology', 'Finance and Investment', 'Technology']"
+147,148,Dionisia Bauzà-Miranda,female,20,4,dionisiabauzà-miranda@edem.es,BBA in Business Administration,"['Finance and Investment', 'Business Management', 'Finance and Investment']"
+148,149,Amancio Huguet Llamas,male,18,4,amanciohuguetllamas@edem.es,BSc in Engineering and Management,"['Marketing', 'Finance and Investment', 'Marketing', 'Business Management']"
+149,150,Baldomero Julio César Duarte Valbuena,male,19,1,baldomerojuliocésarduartevalbuena@edem.es,BBA in Business Administration,"['Business Management', 'Technology', 'Business Management', 'Marketing']"
+150,151,Glauco Nebot,male,32,1,glauconebot@edem.es,Bootcamp Cibersecurity,"['Business Management', 'Marketing', 'Business Management']"
+151,152,Plinio Murcia,male,18,4,pliniomurcia@edem.es,BBA in Business Administration,"['Technology', 'Business Management', 'Management Skills', 'Marketing']"
+152,153,Jaime Echeverría Miguel,male,21,2,jaimeecheverríamiguel@edem.es,BBA in Business Administration,['Management Skills']
+153,154,Ofelia Prat-Hoyos,female,20,2,ofeliaprat-hoyos@edem.es,BBA in Business Administration,"['Management Skills', 'Technology', 'Business Management', 'Management Skills']"
+154,155,Florencia Riba,female,18,2,florenciariba@edem.es,BSc in Engineering and Management,['Technology']
+155,156,Julia Diez Pizarro,female,19,1,juliadiezpizarro@edem.es,BBA in Business Administration,"['Finance and Investment', 'Management Skills', 'Business Management']"
+156,157,Renato Pozo,male,19,1,renatopozo@edem.es,BBA in Business Administration,"['Management Skills', 'Technology', 'Marketing']"
+157,158,Georgina Ballesteros Sáez,female,18,3,georginaballesterossáez@edem.es,BBA in Business Administration,"['Finance and Investment', 'Marketing', 'Finance and Investment', 'Business Management', 'Technology']"
+158,159,Maite Marí Adán,female,19,1,maitemaríadán@edem.es,BBA in Business Administration,"['Business Management', 'Business Management']"
+159,160,Jose Ignacio León Marti,male,19,4,joseignacioleónmarti@edem.es,BSc in Engineering and Management,"['Technology', 'Finance and Investment', 'Management Skills', 'Technology']"
+160,161,Teresa Gonzalo,female,19,1,teresagonzalo@edem.es,BSc in Engineering and Management,"['Management Skills', 'Technology']"
+161,162,Danilo Toro Villalba,male,19,3,danilotorovillalba@edem.es,BBA in Business Administration,"['Technology', 'Management Skills', 'Marketing', 'Technology']"
+162,163,Yago Monreal Herrera,male,18,1,yagomonrealherrera@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills', 'Management Skills']"
+163,164,José Antonio Diéguez Barral,male,26,1,joséantoniodiéguezbarral@edem.es,MBA Junior,['Business Management']
+164,165,René Navas Lopez,male,27,1,renénavaslopez@edem.es,Master Finance,"['Finance and Investment', 'Technology', 'Business Management']"
+165,166,Gema Sancho,female,18,1,gemasancho@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Business Management']"
+166,167,Lucas Peñas,male,18,1,lucaspeñas@edem.es,BBA in Business Administration,"['Business Management', 'Marketing', 'Technology']"
+167,168,Asdrubal Martinez-Briones,male,21,4,asdrubalmartinez-briones@edem.es,BBA in Business Administration,"['Marketing', 'Marketing', 'Management Skills']"
+168,169,Sara Lladó Reina,female,20,4,saralladóreina@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Finance and Investment', 'Technology']"
+169,170,Augusto Barros,male,20,2,augustobarros@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Finance and Investment', 'Management Skills']"
+170,171,José Sobrino-Córdoba,male,26,1,josésobrino-córdoba@edem.es,MBA Junior,"['Business Management', 'Business Management']"
+171,172,Sara Enríquez Tenorio,female,18,3,saraenríqueztenorio@edem.es,BBA in Business Administration,['Marketing']
+172,173,Manu Flor Llano,male,18,2,manuflorllano@edem.es,BBA in Business Administration,"['Management Skills', 'Technology', 'Management Skills', 'Marketing', 'Management Skills']"
+173,174,Fanny de García,female,25,1,fannydegarcía@edem.es,Master Marketing and Digital Sales,"['Finance and Investment', 'Finance and Investment', 'Technology', 'Technology']"
+174,175,Cosme Aguilar Palacios,male,26,1,cosmeaguilarpalacios@edem.es,Master Marketing and Digital Sales,['Finance and Investment']
+175,176,Jenny Macarena Salvador Pinilla,female,20,4,jennymacarenasalvadorpinilla@edem.es,BSc in Engineering and Management,"['Marketing', 'Finance and Investment', 'Management Skills', 'Technology', 'Technology']"
+176,177,Samu Andreu Infante,male,21,2,samuandreuinfante@edem.es,BSc in Engineering and Management,"['Business Management', 'Management Skills', 'Technology', 'Technology', 'Technology']"
+177,178,Piedad Múgica Mayoral,female,18,2,piedadmúgicamayoral@edem.es,BBA in Business Administration,"['Marketing', 'Management Skills', 'Business Management', 'Business Management', 'Business Management']"
+178,179,Ruperto Cantero Perez,male,18,2,rupertocanteroperez@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills']"
+179,180,Dalila Vidal Vazquez,female,18,2,dalilavidalvazquez@edem.es,BBA in Business Administration,['Finance and Investment']
+180,181,Heraclio Maldonado,male,19,4,heracliomaldonado@edem.es,BBA in Business Administration,"['Technology', 'Finance and Investment']"
+181,182,Luís Cantón Bernad,male,19,4,luíscantónbernad@edem.es,BBA in Business Administration,"['Technology', 'Technology', 'Management Skills', 'Management Skills']"
+182,183,Alejandro Torrijos Araujo,male,26,1,alejandrotorrijosaraujo@edem.es,Bootcamp UX/ UI,"['Business Management', 'Technology', 'Business Management']"
+183,184,Melania Asensio Montero,female,18,2,melaniaasensiomontero@edem.es,BSc in Engineering and Management,"['Business Management', 'Business Management', 'Business Management']"
+184,185,Purificación Carbonell,female,18,2,purificacióncarbonell@edem.es,BBA in Business Administration,"['Technology', 'Technology']"
+185,186,Anabel Cañizares Quintero,female,19,1,anabelcañizaresquintero@edem.es,BBA in Business Administration,"['Marketing', 'Marketing']"
+186,187,Rosendo Fortuny Coll,male,27,1,rosendofortunycoll@edem.es,Master Finance,['Finance and Investment']
+187,188,Amor Sabas Rosselló Gimeno,male,18,1,amorsabasrossellógimeno@edem.es,BBA in Business Administration,"['Technology', 'Marketing', 'Marketing']"
+188,189,Angelino Castañeda Amaya,male,20,4,angelinocastañedaamaya@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Business Management', 'Business Management', 'Marketing']"
+189,190,Raimundo del Mate,male,18,2,raimundodelmate@edem.es,BBA in Business Administration,"['Technology', 'Technology', 'Technology', 'Marketing', 'Business Management']"
+190,191,Benigno Torrents-Gimenez,male,18,2,benignotorrents-gimenez@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment', 'Marketing', 'Marketing', 'Technology']"
+191,192,Juan Francisco Vendrell Bayón,male,19,1,juanfranciscovendrellbayón@edem.es,BBA in Business Administration,['Marketing']
+192,193,Quirino Córdoba Exposito,male,19,1,quirinocórdobaexposito@edem.es,BBA in Business Administration,"['Technology', 'Business Management', 'Finance and Investment']"
+193,194,Severo Montoya Cuesta,male,24,1,severomontoyacuesta@edem.es,MBA Junior,"['Business Management', 'Marketing', 'Finance and Investment', 'Technology', 'Business Management']"
+194,195,Curro Menendez Balaguer,male,18,2,curromenendezbalaguer@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Technology', 'Management Skills']"
+195,196,Che Carmelo Simó Castell,male,27,1,checarmelosimócastell@edem.es,Master Finance,['Marketing']
+196,197,Octavia del Farré,female,18,3,octaviadelfarré@edem.es,BBA in Business Administration,"['Technology', 'Technology', 'Business Management']"
+197,198,Piedad Acero Vélez,female,21,1,piedadacerovélez@edem.es,BSc in Engineering and Management,"['Marketing', 'Technology', 'Technology', 'Management Skills']"
+198,199,Gerardo Olmo Donaire,male,27,1,gerardoolmodonaire@edem.es,Bootcamp Cibersecurity,"['Finance and Investment', 'Business Management', 'Marketing']"
+199,200,Bernardino Guiomar Coll Cuadrado,male,25,1,bernardinoguiomarcollcuadrado@edem.es,Master Data Analytics,['Business Management']
+200,201,Marta Crespo Bernal,female,43,1,martacrespobernal@edem.es,Bootcamp Full Stack,"['Technology', 'Finance and Investment', 'Technology', 'Business Management', 'Technology']"
+201,202,Elodia del Calvo,female,25,1,elodiadelcalvo@edem.es,MBA Junior,"['Business Management', 'Management Skills', 'Technology', 'Marketing']"
+202,203,Adela Palomares Vilar,female,25,1,adelapalomaresvilar@edem.es,Master Data Analytics,"['Marketing', 'Technology', 'Finance and Investment', 'Business Management']"
+203,204,Miguel Ángel Cleto Uribe Castellanos,male,19,3,miguelángelcletouribecastellanos@edem.es,BSc in Engineering and Management,"['Business Management', 'Management Skills']"
+204,205,Ángel Jordi Haro Cárdenas,male,18,2,ángeljordiharocárdenas@edem.es,BBA in Business Administration,['Technology']
+205,206,Adalberto Benavent,male,19,4,adalbertobenavent@edem.es,BSc in Engineering and Management,['Management Skills']
+206,207,Francisco Teodosio Puente Valentín,male,18,2,franciscoteodosiopuentevalentín@edem.es,BBA in Business Administration,['Technology']
+207,208,Amor Jorge Montaña Escribano,male,18,1,amorjorgemontañaescribano@edem.es,BSc in Engineering and Management,['Business Management']
+208,209,Espiridión del Ríos,male,18,1,espiridióndelríos@edem.es,BBA in Business Administration,"['Technology', 'Business Management']"
+209,210,Román Amores,male,22,1,románamores@edem.es,Bootcamp UX/ UI,"['Business Management', 'Technology', 'Technology', 'Technology', 'Technology']"
+210,211,Nayara Hervia Trujillo,female,19,1,nayaraherviatrujillo@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing']"
+211,212,Lorenzo Enríquez-Manrique,male,26,1,lorenzoenríquez-manrique@edem.es,Master Marketing and Digital Sales,"['Business Management', 'Finance and Investment', 'Finance and Investment', 'Business Management', 'Marketing']"
+212,213,Aurelia Nayara Santamaria Arco,female,18,2,aurelianayarasantamariaarco@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Marketing']"
+213,214,Jose Francisco Mariscal Iglesia,male,18,2,josefranciscomariscaliglesia@edem.es,BBA in Business Administration,"['Business Management', 'Marketing', 'Technology']"
+214,215,Rosa María Sureda Hernandez,female,24,1,rosamaríasuredahernandez@edem.es,Bootcamp Data Science,"['Marketing', 'Technology', 'Technology', 'Management Skills']"
+215,216,Aitor del Ibañez,male,27,1,aitordelibañez@edem.es,Bootcamp Cibersecurity,"['Management Skills', 'Marketing', 'Marketing', 'Marketing', 'Management Skills']"
+216,217,Rolando Rey Alfaro,male,18,3,rolandoreyalfaro@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management', 'Finance and Investment', 'Business Management']"
+217,218,Emelina Cuadrado-Arévalo,female,19,4,emelinacuadrado-arévalo@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management', 'Marketing', 'Marketing']"
+218,219,Segismundo Guardiola Lumbreras,male,18,3,segismundoguardiolalumbreras@edem.es,BSc in Engineering and Management,"['Marketing', 'Finance and Investment', 'Marketing', 'Management Skills']"
+219,220,Aurora Segarra Zabaleta,female,21,1,aurorasegarrazabaleta@edem.es,BBA in Business Administration,['Marketing']
+220,221,Jaime Priego Tomas,male,41,1,jaimepriegotomas@edem.es,Bootcamp Full Stack,"['Finance and Investment', 'Marketing', 'Finance and Investment', 'Finance and Investment']"
+221,222,María Del Carmen Pina Iglesia,female,20,3,maríadelcarmenpinaiglesia@edem.es,BBA in Business Administration,"['Finance and Investment', 'Business Management']"
+222,223,Ruy Ródenas Saldaña,male,18,3,ruyródenassaldaña@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management', 'Business Management']"
+223,224,Lina Jerez Boada,female,24,1,linajerezboada@edem.es,Master Marketing and Digital Sales,"['Marketing', 'Marketing', 'Management Skills']"
+224,225,Jovita Toro Vallejo,female,18,1,jovitatorovallejo@edem.es,BSc in Engineering and Management,"['Business Management', 'Marketing', 'Technology']"
+225,226,Reyes del Guerra,male,19,3,reyesdelguerra@edem.es,BBA in Business Administration,"['Finance and Investment', 'Finance and Investment', 'Business Management', 'Marketing', 'Marketing']"
+226,227,Benjamín del Padilla,male,18,2,benjamíndelpadilla@edem.es,BBA in Business Administration,['Technology']
+227,228,Crescencia Trujillo Puga,female,27,1,crescenciatrujillopuga@edem.es,Master Data Analytics,['Business Management']
+228,229,Alba Fonseca Criado,female,18,3,albafonsecacriado@edem.es,BSc in Engineering and Management,['Technology']
+229,230,Telmo Plaza Iglesia,male,35,1,telmoplazaiglesia@edem.es,Bootcamp Data Science,"['Marketing', 'Finance and Investment', 'Business Management']"
+230,231,Aitana Angulo Coello,female,21,1,aitanaangulocoello@edem.es,BSc in Engineering and Management,"['Management Skills', 'Technology', 'Management Skills']"
+231,232,Luís Royo Jove,male,19,4,luísroyojove@edem.es,BSc in Engineering and Management,"['Technology', 'Business Management', 'Finance and Investment', 'Finance and Investment']"
+232,233,Nilda Capdevila,female,18,3,nildacapdevila@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills', 'Marketing', 'Finance and Investment']"
+233,234,Diana Caballero Castilla,female,19,4,dianacaballerocastilla@edem.es,BBA in Business Administration,"['Business Management', 'Technology', 'Business Management', 'Marketing']"
+234,235,Antonia Roselló Lucena,female,20,1,antoniarosellólucena@edem.es,BBA in Business Administration,"['Marketing', 'Business Management', 'Finance and Investment', 'Technology']"
+235,236,Leandra Giralt Gutierrez,female,18,2,leandragiraltgutierrez@edem.es,BSc in Engineering and Management,"['Marketing', 'Management Skills', 'Marketing']"
+236,237,Yolanda Esteve,female,27,1,yolandaesteve@edem.es,MBA Junior,"['Technology', 'Management Skills', 'Marketing']"
+237,238,Damián Coello Hernández,male,18,1,damiáncoellohernández@edem.es,BBA in Business Administration,"['Finance and Investment', 'Management Skills', 'Management Skills', 'Management Skills']"
+238,239,Eustaquio Guzman,male,18,3,eustaquioguzman@edem.es,BBA in Business Administration,"['Finance and Investment', 'Marketing', 'Management Skills']"
+239,240,Gabriela de Amat,female,18,3,gabrieladeamat@edem.es,BBA in Business Administration,['Technology']
+240,241,Ofelia Carrasco Sáez,female,18,2,ofeliacarrascosáez@edem.es,BBA in Business Administration,['Marketing']
+241,242,Luciano Barbero Morales,male,19,3,lucianobarberomorales@edem.es,BBA in Business Administration,"['Marketing', 'Marketing', 'Business Management', 'Management Skills']"
+242,243,Josep Rueda Jódar,male,19,2,josepruedajódar@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment', 'Management Skills']"
+243,244,Ciriaco Carrera-Valdés,male,23,1,ciriacocarrera-valdés@edem.es,MBA Junior,"['Business Management', 'Marketing']"
+244,245,Chus Jacobo Peña Velázquez,male,21,4,chusjacobopeñavelázquez@edem.es,BSc in Engineering and Management,['Management Skills']
+245,246,Candelario Dávila Escribano,male,18,4,candelariodávilaescribano@edem.es,BBA in Business Administration,"['Finance and Investment', 'Management Skills', 'Finance and Investment', 'Marketing']"
+246,247,Espiridión Montesinos Bertrán,male,18,1,espiridiónmontesinosbertrán@edem.es,BBA in Business Administration,"['Business Management', 'Finance and Investment', 'Finance and Investment']"
+247,248,Baudelio Valle Sola,male,18,1,baudeliovallesola@edem.es,BBA in Business Administration,"['Marketing', 'Management Skills', 'Technology', 'Management Skills', 'Finance and Investment']"
+248,249,Maxi Bravo Olivé,female,20,4,maxibravoolivé@edem.es,BBA in Business Administration,"['Marketing', 'Management Skills', 'Marketing', 'Marketing']"
+249,250,América Salinas Casanova,female,18,1,américasalinascasanova@edem.es,BBA in Business Administration,"['Marketing', 'Finance and Investment', 'Marketing', 'Marketing']"
+250,251,Juan Pablo Candelario Carbonell Rubio,male,18,1,juanpablocandelariocarbonellrubio@edem.es,BBA in Business Administration,"['Marketing', 'Marketing', 'Management Skills', 'Business Management']"
+251,252,Gema Heras,female,27,1,gemaheras@edem.es,Master Marketing and Digital Sales,['Management Skills']
+252,253,Toño Núñez Costa,male,18,1,toñonúñezcosta@edem.es,BSc in Engineering and Management,['Technology']
+253,254,Victorino Barón-Adadia,male,18,2,victorinobarón-adadia@edem.es,BBA in Business Administration,"['Technology', 'Marketing', 'Marketing']"
+254,255,Salud Rivera Cornejo,female,20,1,saludriveracornejo@edem.es,Bootcamp Cibersecurity,['Business Management']
+255,256,Domingo del Benitez,male,20,1,domingodelbenitez@edem.es,Bootcamp Cibersecurity,"['Finance and Investment', 'Marketing', 'Technology', 'Marketing']"
+256,257,Carmelo del Echeverría,male,18,1,carmelodelecheverría@edem.es,BSc in Engineering and Management,"['Business Management', 'Business Management']"
+257,258,Agapito Montero Ortega,male,18,4,agapitomonteroortega@edem.es,BSc in Engineering and Management,"['Marketing', 'Management Skills', 'Technology', 'Finance and Investment']"
+258,259,Hector Aznar-Ortiz,male,21,1,hectoraznar-ortiz@edem.es,BBA in Business Administration,['Management Skills']
+259,260,Jenny Yolanda Lladó Cerdá,female,24,1,jennyyolandalladócerdá@edem.es,MBA Junior,"['Finance and Investment', 'Management Skills', 'Technology', 'Management Skills']"
+260,261,Édgar Palomino Egea,male,25,1,édgarpalominoegea@edem.es,Master Finance,"['Business Management', 'Business Management', 'Marketing']"
+261,262,Berto Manzanares Francisco,male,26,1,bertomanzanaresfrancisco@edem.es,Master Finance,"['Technology', 'Business Management', 'Marketing', 'Business Management']"
+262,263,Vidal Hernando-Menéndez,male,18,1,vidalhernando-menéndez@edem.es,BBA in Business Administration,"['Business Management', 'Marketing', 'Management Skills', 'Business Management']"
+263,264,Toño Noriega Barreda,male,20,3,toñonoriegabarreda@edem.es,BSc in Engineering and Management,"['Technology', 'Marketing']"
+264,265,Bernarda Manso-Arrieta,female,24,1,bernardamanso-arrieta@edem.es,Master Data Analytics,"['Finance and Investment', 'Business Management', 'Technology']"
+265,266,Cruz Pelayo Chamorro,female,19,4,cruzpelayochamorro@edem.es,BBA in Business Administration,"['Finance and Investment', 'Management Skills', 'Marketing']"
+266,267,Cristóbal Padilla Calzada,male,18,3,cristóbalpadillacalzada@edem.es,BBA in Business Administration,"['Finance and Investment', 'Management Skills', 'Business Management', 'Marketing']"
+267,268,Clarisa Sala,female,21,1,clarisasala@edem.es,Bootcamp UX/ UI,['Business Management']
+268,269,Wálter Pareja,male,21,4,wálterpareja@edem.es,BBA in Business Administration,"['Marketing', 'Business Management']"
+269,270,Iker Caro Rebollo,male,20,1,ikercarorebollo@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Business Management']"
+270,271,Felicidad Marí Gallego,female,23,1,felicidadmarígallego@edem.es,Master Marketing and Digital Sales,"['Technology', 'Marketing']"
+271,272,Leonor Zapata Dalmau,female,21,1,leonorzapatadalmau@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment']"
+272,273,Baudelio Alvarado-Fajardo,male,21,4,baudelioalvarado-fajardo@edem.es,BBA in Business Administration,"['Finance and Investment', 'Marketing', 'Finance and Investment', 'Finance and Investment', 'Management Skills']"
+273,274,Fermín Fonseca Angulo,male,27,1,fermínfonsecaangulo@edem.es,MBA Junior,"['Finance and Investment', 'Marketing']"
+274,275,Imelda Adora Mesa Blasco,female,20,2,imeldaadoramesablasco@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Business Management']"
+275,276,Maximiliano Pelayo Baquero,male,18,2,maximilianopelayobaquero@edem.es,BSc in Engineering and Management,"['Technology', 'Finance and Investment']"
+276,277,Manuelita Doménech-Barrena,female,18,2,manuelitadoménech-barrena@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Business Management', 'Technology']"
+277,278,Lope Díez Iñiguez,male,18,3,lopedíeziñiguez@edem.es,BBA in Business Administration,['Technology']
+278,279,Hilario Sans,male,18,1,hilariosans@edem.es,BBA in Business Administration,"['Technology', 'Finance and Investment', 'Technology']"
+279,280,Violeta Áurea Valencia Company,female,18,3,violetaáureavalenciacompany@edem.es,BBA in Business Administration,"['Finance and Investment', 'Business Management', 'Marketing', 'Technology', 'Technology']"
+280,281,Vicenta Cabeza Angulo,female,18,4,vicentacabezaangulo@edem.es,BBA in Business Administration,['Finance and Investment']
+281,282,Paca Vallés Cisneros,female,21,4,pacavalléscisneros@edem.es,BSc in Engineering and Management,"['Marketing', 'Technology', 'Finance and Investment', 'Business Management']"
+282,283,Rico Eustaquio Ortega Chico,male,18,3,ricoeustaquioortegachico@edem.es,BBA in Business Administration,"['Finance and Investment', 'Finance and Investment', 'Business Management', 'Finance and Investment']"
+283,284,Almudena Isabela Tormo Alcántara,female,19,1,almudenaisabelatormoalcántara@edem.es,BBA in Business Administration,"['Business Management', 'Technology', 'Business Management']"
+284,285,Ciríaco del Gracia,male,18,2,ciríacodelgracia@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Technology', 'Business Management']"
+285,286,Lorena Barrio Puerta,female,23,1,lorenabarriopuerta@edem.es,MBA Junior,['Business Management']
+286,287,Primitivo Nicolás Marín,male,24,1,primitivonicolásmarín@edem.es,Master Data Analytics,['Marketing']
+287,288,Isaac Luz Alberola,male,18,2,isaacluzalberola@edem.es,BSc in Engineering and Management,"['Business Management', 'Management Skills', 'Technology', 'Management Skills', 'Management Skills']"
+288,289,Régulo Ávila Carbó,male,21,2,réguloávilacarbó@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management', 'Management Skills', 'Management Skills']"
+289,290,Lupe del Acero,female,21,1,lupedelacero@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment', 'Marketing']"
+290,291,Marc Macías García,male,19,1,marcmacíasgarcía@edem.es,BSc in Engineering and Management,['Finance and Investment']
+291,292,Obdulia Sierra Zurita,female,26,1,obduliasierrazurita@edem.es,Master Marketing and Digital Sales,['Finance and Investment']
+292,293,Sabina Lloret Osorio,female,19,4,sabinalloretosorio@edem.es,BBA in Business Administration,['Business Management']
+293,294,Antonio Sarabia-Peralta,male,18,1,antoniosarabia-peralta@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Technology']"
+294,295,Bautista Mendoza-Navarro,male,24,1,bautistamendoza-navarro@edem.es,Master Marketing and Digital Sales,"['Technology', 'Business Management', 'Technology', 'Marketing', 'Marketing']"
+295,296,Mateo Valderrama,male,18,3,mateovalderrama@edem.es,BBA in Business Administration,"['Marketing', 'Business Management', 'Marketing', 'Business Management']"
+296,297,Pelayo Cañizares Luna,male,21,2,pelayocañizaresluna@edem.es,BBA in Business Administration,"['Finance and Investment', 'Technology', 'Finance and Investment']"
+297,298,Edgardo Arribas Casares,male,19,1,edgardoarribascasares@edem.es,BSc in Engineering and Management,"['Management Skills', 'Finance and Investment', 'Marketing', 'Management Skills']"
+298,299,Reynaldo Naranjo Reina,male,19,1,reynaldonaranjoreina@edem.es,BSc in Engineering and Management,"['Technology', 'Marketing', 'Marketing']"
+299,300,Agapito Cesar Fernández Estévez,male,27,1,agapitocesarfernándezestévez@edem.es,Master Finance,"['Business Management', 'Business Management', 'Finance and Investment', 'Marketing', 'Marketing']"
+300,301,Jose Antonio Macías Beltran,male,26,1,joseantoniomacíasbeltran@edem.es,MBA Junior,"['Finance and Investment', 'Management Skills', 'Business Management']"
+301,302,Asdrubal Sancho Fernández Pelayo,male,19,3,asdrubalsanchofernándezpelayo@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment', 'Finance and Investment']"
+302,303,Alonso Vicente Barba,male,24,1,alonsovicentebarba@edem.es,Master Data Analytics,"['Finance and Investment', 'Business Management', 'Marketing', 'Finance and Investment']"
+303,304,Leopoldo Marin Talavera,male,18,3,leopoldomarintalavera@edem.es,BBA in Business Administration,"['Management Skills', 'Technology', 'Management Skills', 'Management Skills', 'Business Management']"
+304,305,Cintia de Criado,female,19,3,cintiadecriado@edem.es,BSc in Engineering and Management,"['Technology', 'Marketing', 'Finance and Investment', 'Business Management', 'Finance and Investment']"
+305,306,Melchor Marín-Rosa,male,19,2,melchormarín-rosa@edem.es,BSc in Engineering and Management,['Management Skills']
+306,307,Remigio Sandoval Puente,male,20,1,remigiosandovalpuente@edem.es,BBA in Business Administration,"['Technology', 'Technology', 'Management Skills', 'Business Management']"
+307,308,Aarón Puerta Ángel,male,23,1,aarónpuertaángel@edem.es,MBA Junior,['Management Skills']
+308,309,Apolonia Suárez Campillo,female,27,1,apoloniasuárezcampillo@edem.es,Master Marketing and Digital Sales,['Management Skills']
+309,310,Antonio Rivero Pera,male,23,1,antonioriveropera@edem.es,Master Finance,"['Technology', 'Business Management', 'Finance and Investment', 'Management Skills', 'Technology']"
+310,311,Rafa Mendez Carbajo,male,26,1,rafamendezcarbajo@edem.es,MBA Junior,['Management Skills']
+311,312,Amando Perea Baró,male,18,4,amandopereabaró@edem.es,BSc in Engineering and Management,"['Business Management', 'Business Management']"
+312,313,Edmundo Ródenas Avilés,male,21,1,edmundoródenasavilés@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment', 'Business Management']"
+313,314,Antonio del Bonilla,male,18,2,antoniodelbonilla@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Technology']"
+314,315,Nuria del Folch,female,25,1,nuriadelfolch@edem.es,Master Marketing and Digital Sales,"['Technology', 'Marketing']"
+315,316,Lola Manrique Puig,female,26,1,lolamanriquepuig@edem.es,Master Finance,"['Finance and Investment', 'Marketing', 'Finance and Investment']"
+316,317,Noelia Agullo Escobar,female,18,2,noeliaagulloescobar@edem.es,BBA in Business Administration,['Technology']
+317,318,Eloy Buendía Ferrán,male,19,3,eloybuendíaferrán@edem.es,BBA in Business Administration,['Marketing']
+318,319,Jose Ignacio Teobaldo Elías Miralles,male,19,3,joseignacioteobaldoelíasmiralles@edem.es,BSc in Engineering and Management,"['Technology', 'Technology', 'Business Management', 'Management Skills', 'Technology']"
+319,320,Anselma Zurita Leiva,female,26,1,anselmazuritaleiva@edem.es,MBA Junior,"['Finance and Investment', 'Marketing', 'Technology']"
+320,321,Fabián González-Acuña,male,26,1,fabiángonzález-acuña@edem.es,Master Finance,"['Finance and Investment', 'Marketing', 'Management Skills']"
+321,322,Venceslás Pineda Egea,male,30,1,vencesláspinedaegea@edem.es,Bootcamp Full Stack,"['Technology', 'Finance and Investment', 'Marketing', 'Business Management', 'Management Skills']"
+322,323,Jose Angel Taboada Herranz,male,25,1,joseangeltaboadaherranz@edem.es,Master Marketing and Digital Sales,"['Finance and Investment', 'Business Management']"
+323,324,Anacleto Ricart-Martorell,male,26,1,anacletoricart-martorell@edem.es,Master Finance,"['Technology', 'Marketing', 'Management Skills', 'Business Management', 'Marketing']"
+324,325,Encarnación Puente,female,18,1,encarnaciónpuente@edem.es,BSc in Engineering and Management,"['Management Skills', 'Finance and Investment']"
+325,326,Agustina Escobar Rodríguez,female,23,1,agustinaescobarrodríguez@edem.es,Master Marketing and Digital Sales,"['Finance and Investment', 'Finance and Investment']"
+326,327,Marcos Lerma Lillo,male,18,1,marcoslermalillo@edem.es,BBA in Business Administration,['Finance and Investment']
+327,328,Gastón Noguera Salcedo,male,24,1,gastónnoguerasalcedo@edem.es,MBA Junior,"['Technology', 'Technology', 'Technology', 'Business Management']"
+328,329,Ruperto Cuervo Anglada,male,26,1,rupertocuervoanglada@edem.es,Master Marketing and Digital Sales,"['Business Management', 'Marketing', 'Management Skills', 'Marketing', 'Management Skills']"
+329,330,Haroldo Águila,male,24,1,haroldoáguila@edem.es,Master Finance,"['Finance and Investment', 'Technology', 'Management Skills', 'Management Skills']"
+330,331,Milagros Elorza Olmo,female,25,1,milagroselorzaolmo@edem.es,Master Marketing and Digital Sales,['Management Skills']
+331,332,Arturo León,male,20,1,arturoleón@edem.es,BBA in Business Administration,['Management Skills']
+332,333,Ruperto Rius Barberá,male,25,1,rupertoriusbarberá@edem.es,Master Marketing and Digital Sales,"['Finance and Investment', 'Management Skills', 'Management Skills', 'Business Management']"
+333,334,Cecilio Morata Gallo,male,18,2,ceciliomoratagallo@edem.es,BSc in Engineering and Management,['Business Management']
+334,335,Moreno Cózar Ayala,male,25,1,morenocózarayala@edem.es,Master Finance,"['Management Skills', 'Technology', 'Marketing', 'Business Management', 'Finance and Investment']"
+335,336,Chus del Machado,male,25,1,chusdelmachado@edem.es,Master Finance,"['Business Management', 'Management Skills', 'Technology', 'Finance and Investment', 'Finance and Investment']"
+336,337,Simón Carranza Ferrández,male,19,4,simóncarranzaferrández@edem.es,BSc in Engineering and Management,['Marketing']
+337,338,Luís Marciano Solís Pastor,male,26,1,luísmarcianosolíspastor@edem.es,Master Marketing and Digital Sales,"['Marketing', 'Finance and Investment', 'Business Management']"
+338,339,Luna Dávila Hoz,female,19,2,lunadávilahoz@edem.es,BBA in Business Administration,['Management Skills']
+339,340,Teobaldo Duilio Blasco Avilés,male,18,1,teobaldoduilioblascoavilés@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Business Management', 'Management Skills']"
+340,341,Nazaret Valentín Landa,male,24,1,nazaretvalentínlanda@edem.es,Master Marketing and Digital Sales,"['Management Skills', 'Business Management', 'Business Management']"
+341,342,Camila Arteaga Ibarra,female,19,1,camilaarteagaibarra@edem.es,BBA in Business Administration,['Business Management']
+342,343,Juan Manuel Lamas-Pulido,male,19,1,juanmanuellamas-pulido@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Finance and Investment', 'Business Management']"
+343,344,Adelia Silva Romero,female,21,4,adeliasilvaromero@edem.es,BSc in Engineering and Management,"['Management Skills', 'Marketing', 'Marketing']"
+344,345,Mercedes Conesa Isern,female,18,1,mercedesconesaisern@edem.es,BBA in Business Administration,"['Marketing', 'Management Skills', 'Technology', 'Finance and Investment', 'Management Skills']"
+345,346,Porfirio Carlos Manrique,male,26,1,porfiriocarlosmanrique@edem.es,Master Finance,"['Finance and Investment', 'Business Management', 'Finance and Investment', 'Technology']"
+346,347,Francisco Javier Caro Cerdá,male,25,1,franciscojaviercarocerdá@edem.es,Bootcamp Full Stack,"['Marketing', 'Business Management', 'Marketing']"
+347,348,Jose Manuel Barón Isern,male,19,1,josemanuelbarónisern@edem.es,BBA in Business Administration,"['Finance and Investment', 'Business Management', 'Technology', 'Finance and Investment', 'Management Skills']"
+348,349,Federico Uría Nicolás,male,18,4,federicouríanicolás@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management']"
+349,350,Zoraida Jaén-Abascal,female,18,2,zoraidajaén-abascal@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment']"
+350,351,Saturnino Eduardo Pedraza Ribes,male,21,1,saturninoeduardopedrazaribes@edem.es,Bootcamp Full Stack,['Management Skills']
+351,352,Erasmo Puig Escudero,male,19,3,erasmopuigescudero@edem.es,BBA in Business Administration,['Technology']
+352,353,Héctor Vilalta Bravo,male,24,1,héctorvilaltabravo@edem.es,MBA Junior,"['Marketing', 'Marketing', 'Finance and Investment', 'Management Skills', 'Business Management']"
+353,354,Mario Clímaco Capdevila Hernando,male,18,2,marioclímacocapdevilahernando@edem.es,BSc in Engineering and Management,"['Technology', 'Finance and Investment']"
+354,355,Paloma de Ruiz,female,20,1,palomaderuiz@edem.es,Bootcamp Full Stack,"['Marketing', 'Business Management']"
+355,356,Ángela Mariño,female,18,3,ángelamariño@edem.es,BSc in Engineering and Management,"['Business Management', 'Finance and Investment']"
+356,357,Lisandro Ramos Jordá,male,28,1,lisandroramosjordá@edem.es,Bootcamp Data Science,"['Business Management', 'Management Skills', 'Technology']"
+357,358,Cecilia Moll Manrique,female,19,1,ceciliamollmanrique@edem.es,BBA in Business Administration,"['Business Management', 'Business Management', 'Management Skills']"
+358,359,Jenaro Carrasco Céspedes,male,18,2,jenarocarrascocéspedes@edem.es,BSc in Engineering and Management,"['Management Skills', 'Marketing']"
+359,360,Ismael Gisbert-Llorens,male,18,2,ismaelgisbert-llorens@edem.es,BBA in Business Administration,"['Marketing', 'Finance and Investment', 'Business Management', 'Technology']"
+360,361,Omar del Diego,male,21,4,omardeldiego@edem.es,BBA in Business Administration,"['Technology', 'Management Skills', 'Management Skills', 'Technology']"
+361,362,Ariel Vélez Alberola,male,21,1,arielvélezalberola@edem.es,BBA in Business Administration,"['Marketing', 'Marketing']"
+362,363,Débora Joaquina Almazán Castañeda,female,18,3,déborajoaquinaalmazáncastañeda@edem.es,BBA in Business Administration,"['Marketing', 'Finance and Investment']"
+363,364,Joel Isidro Olivares Soler,male,18,2,joelisidroolivaressoler@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Finance and Investment', 'Marketing']"
+364,365,Graciano Peiró-Abad,male,18,1,gracianopeiró-abad@edem.es,BBA in Business Administration,['Management Skills']
+365,366,Dolores Febe Burgos Falcó,female,21,3,doloresfebeburgosfalcó@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing']"
+366,367,Manu Moll Peñalver,female,20,1,manumollpeñalver@edem.es,BBA in Business Administration,"['Marketing', 'Finance and Investment']"
+367,368,Severiano Ulises Pereira Correa,male,20,4,severianoulisespereiracorrea@edem.es,BBA in Business Administration,"['Marketing', 'Marketing']"
+368,369,Eusebio de Echevarría,male,18,1,eusebiodeechevarría@edem.es,BSc in Engineering and Management,['Technology']
+369,370,Sebastián Gibert,male,24,1,sebastiángibert@edem.es,MBA Junior,"['Technology', 'Management Skills', 'Marketing', 'Management Skills']"
+370,371,Apolinar Navas Contreras,male,18,3,apolinarnavascontreras@edem.es,BBA in Business Administration,['Management Skills']
+371,372,Samu Sans Menéndez,male,20,4,samusansmenéndez@edem.es,BBA in Business Administration,['Marketing']
+372,373,Ángela Franco Jara,female,23,1,ángelafrancojara@edem.es,Master Marketing and Digital Sales,"['Business Management', 'Finance and Investment', 'Management Skills']"
+373,374,Albino Blanes Galiano,male,19,4,albinoblanesgaliano@edem.es,BBA in Business Administration,"['Business Management', 'Finance and Investment', 'Business Management', 'Technology']"
+374,375,Íñigo Mendizábal Melero,male,19,1,íñigomendizábalmelero@edem.es,BBA in Business Administration,['Marketing']
+375,376,Julio César Jáuregui Villanueva,male,21,1,juliocésarjáureguivillanueva@edem.es,BSc in Engineering and Management,['Management Skills']
+376,377,Francisco Jose Villalobos Gonzalo,male,19,4,franciscojosevillalobosgonzalo@edem.es,BBA in Business Administration,"['Technology', 'Business Management']"
+377,378,Maximiano Elías,male,18,1,maximianoelías@edem.es,BBA in Business Administration,"['Technology', 'Business Management', 'Management Skills', 'Finance and Investment', 'Management Skills']"
+378,379,Amor Juan Antonio Ribera Laguna,male,20,1,amorjuanantonioriberalaguna@edem.es,BBA in Business Administration,"['Technology', 'Finance and Investment', 'Marketing', 'Technology', 'Finance and Investment']"
+379,380,Américo Fajardo Hoz,male,23,1,américofajardohoz@edem.es,Master Data Analytics,"['Technology', 'Business Management', 'Management Skills', 'Finance and Investment', 'Management Skills']"
+380,381,Aristides de Chaparro,male,18,4,aristidesdechaparro@edem.es,BBA in Business Administration,"['Technology', 'Business Management', 'Finance and Investment', 'Marketing', 'Finance and Investment']"
+381,382,Tito Vázquez Llanos,male,19,1,titovázquezllanos@edem.es,BBA in Business Administration,"['Technology', 'Business Management', 'Technology', 'Finance and Investment', 'Marketing']"
+382,383,José Bustamante Nevado,female,21,1,josébustamantenevado@edem.es,BBA in Business Administration,['Business Management']
+383,384,Guiomar de Salamanca,male,18,2,guiomardesalamanca@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment', 'Business Management']"
+384,385,Roxana Sebastián Barrios,female,18,2,roxanasebastiánbarrios@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management', 'Finance and Investment']"
+385,386,Teófilo Codina Cornejo,male,18,1,teófilocodinacornejo@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills', 'Finance and Investment', 'Technology', 'Marketing']"
+386,387,Agapito Teófilo Solsona Martín,male,19,2,agapitoteófilosolsonamartín@edem.es,BSc in Engineering and Management,"['Marketing', 'Business Management']"
+387,388,Glauco Ojeda-Guerra,male,18,2,glaucoojeda-guerra@edem.es,BBA in Business Administration,"['Business Management', 'Marketing', 'Finance and Investment', 'Business Management']"
+388,389,Erasmo Cal,male,28,1,erasmocal@edem.es,Bootcamp Data Science,"['Finance and Investment', 'Management Skills', 'Business Management', 'Marketing']"
+389,390,Gervasio Alberto Seco,male,19,4,gervasioalbertoseco@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Marketing']"
+390,391,Patricio Estévez Barragán,male,23,1,patricioestévezbarragán@edem.es,MBA Junior,"['Technology', 'Finance and Investment', 'Business Management', 'Management Skills', 'Marketing']"
+391,392,Américo Vizcaíno Neira,male,19,3,américovizcaínoneira@edem.es,BBA in Business Administration,['Marketing']
+392,393,Martin Goñi Carreño,male,18,1,martingoñicarreño@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management', 'Technology']"
+393,394,Sarita Correa Cuesta,female,19,3,saritacorreacuesta@edem.es,BBA in Business Administration,"['Business Management', 'Marketing', 'Management Skills', 'Marketing']"
+394,395,Juan Bautista Baró Goñi,male,18,1,juanbautistabarógoñi@edem.es,BSc in Engineering and Management,"['Business Management', 'Management Skills', 'Business Management', 'Management Skills']"
+395,396,Bautista Bernal Guitart,male,18,1,bautistabernalguitart@edem.es,BBA in Business Administration,['Business Management']
+396,397,Jafet Cabo Alberto,male,21,2,jafetcaboalberto@edem.es,BBA in Business Administration,['Technology']
+397,398,Regina Sevilla Sancho,female,20,3,reginasevillasancho@edem.es,BBA in Business Administration,"['Technology', 'Management Skills']"
+398,399,Abraham Barberá Tur,male,18,4,abrahambarberátur@edem.es,BBA in Business Administration,['Management Skills']
+399,400,Chus Marí Conesa,male,18,2,chusmaríconesa@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management', 'Technology']"
+400,401,Sancho Salcedo Bueno,male,18,2,sanchosalcedobueno@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment', 'Marketing', 'Management Skills']"
+401,402,Domingo Beltran Villalba,male,18,4,domingobeltranvillalba@edem.es,BSc in Engineering and Management,"['Management Skills', 'Marketing', 'Marketing', 'Finance and Investment']"
+402,403,Jose Francisco Campos Llobet,male,19,2,josefranciscocamposllobet@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing', 'Business Management', 'Marketing']"
+403,404,Nando Ferrero,male,25,1,nandoferrero@edem.es,MBA Junior,"['Marketing', 'Business Management']"
+404,405,Vanesa Castejón Arnau,female,26,1,vanesacastejónarnau@edem.es,Master Marketing and Digital Sales,"['Finance and Investment', 'Finance and Investment', 'Business Management', 'Management Skills']"
+405,406,Bonifacio Salas Narváez,male,19,3,bonifaciosalasnarváez@edem.es,BSc in Engineering and Management,"['Marketing', 'Finance and Investment', 'Finance and Investment', 'Technology']"
+406,407,Elisabet Malo Aguilera,female,18,1,elisabetmaloaguilera@edem.es,BSc in Engineering and Management,"['Management Skills', 'Business Management', 'Technology']"
+407,408,Adán Castro Narváez,male,19,2,adáncastronarváez@edem.es,BBA in Business Administration,"['Management Skills', 'Management Skills', 'Management Skills', 'Marketing', 'Finance and Investment']"
+408,409,Ruy del Galindo,male,19,3,ruydelgalindo@edem.es,BBA in Business Administration,"['Technology', 'Management Skills']"
+409,410,Juan Carlos Moraleda Mur,male,18,1,juancarlosmoraledamur@edem.es,BBA in Business Administration,"['Finance and Investment', 'Business Management', 'Business Management', 'Management Skills', 'Business Management']"
+410,411,Félix Vallejo Porras,male,23,1,félixvallejoporras@edem.es,Master Data Analytics,"['Management Skills', 'Finance and Investment', 'Finance and Investment', 'Finance and Investment']"
+411,412,María Ángeles Nydia Tejero Franco,female,24,1,maríaángelesnydiatejerofranco@edem.es,Master Marketing and Digital Sales,"['Marketing', 'Marketing', 'Marketing', 'Marketing']"
+412,413,Luis Ángel Carvajal Gámez,male,18,4,luisángelcarvajalgámez@edem.es,BBA in Business Administration,"['Business Management', 'Technology', 'Management Skills']"
+413,414,Elpidio Priego Tomas,male,18,1,elpidiopriegotomas@edem.es,BBA in Business Administration,"['Marketing', 'Business Management', 'Marketing']"
+414,415,César Ferrándiz Bayona,male,20,4,césarferrándizbayona@edem.es,BSc in Engineering and Management,"['Business Management', 'Technology']"
+415,416,Lupe Isidro Puig Samper,male,21,1,lupeisidropuigsamper@edem.es,BSc in Engineering and Management,['Marketing']
+416,417,Augusto Bello Canet,male,19,1,augustobellocanet@edem.es,BBA in Business Administration,"['Management Skills', 'Technology']"
+417,418,Cecilio del Fernandez,male,20,2,ceciliodelfernandez@edem.es,BBA in Business Administration,"['Technology', 'Management Skills', 'Marketing']"
+418,419,Moreno Adelardo Alarcón Durán,male,25,1,morenoadelardoalarcóndurán@edem.es,Master Data Analytics,"['Finance and Investment', 'Marketing', 'Finance and Investment', 'Management Skills', 'Business Management']"
+419,420,Candelario Cervantes Alba,male,19,1,candelariocervantesalba@edem.es,BSc in Engineering and Management,"['Technology', 'Business Management', 'Marketing', 'Finance and Investment']"
+420,421,Pili Cayetana Alberto Manuel,female,18,2,pilicayetanaalbertomanuel@edem.es,BBA in Business Administration,"['Business Management', 'Technology', 'Business Management']"
+421,422,Adolfo Flores,male,18,3,adolfoflores@edem.es,BBA in Business Administration,"['Finance and Investment', 'Marketing', 'Technology']"
+422,423,Leopoldo García Peral,male,18,4,leopoldogarcíaperal@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Marketing', 'Technology', 'Marketing', 'Finance and Investment']"
+423,424,Andrés Mercader Andrés,male,20,4,andrésmercaderandrés@edem.es,BBA in Business Administration,['Technology']
+424,425,Bernabé Pintor Landa,male,19,2,bernabépintorlanda@edem.es,BBA in Business Administration,"['Finance and Investment', 'Management Skills', 'Business Management']"
+425,426,Silvestre del Larrea,male,20,1,silvestredellarrea@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Management Skills']"
+426,427,Manu Garmendia Baquero,female,20,4,manugarmendiabaquero@edem.es,BBA in Business Administration,['Management Skills']
+427,428,Anacleto Cabezas Paredes,male,18,1,anacletocabezasparedes@edem.es,BSc in Engineering and Management,"['Management Skills', 'Business Management', 'Business Management', 'Finance and Investment', 'Business Management']"
+428,429,Paco Gregorio Gomez Estevez,male,26,1,pacogregoriogomezestevez@edem.es,Master Marketing and Digital Sales,"['Marketing', 'Finance and Investment', 'Business Management', 'Business Management', 'Business Management']"
+429,430,Severiano Hervia Tamayo,male,27,1,severianoherviatamayo@edem.es,Master Marketing and Digital Sales,"['Finance and Investment', 'Marketing', 'Finance and Investment', 'Marketing', 'Business Management']"
+430,431,Nereida Bravo-Coronado,female,18,2,nereidabravo-coronado@edem.es,BSc in Engineering and Management,"['Business Management', 'Business Management', 'Technology']"
+431,432,Anabel Pedrero,female,18,2,anabelpedrero@edem.es,BBA in Business Administration,['Technology']
+432,433,Belen Carpio Gordillo,female,19,3,belencarpiogordillo@edem.es,BSc in Engineering and Management,"['Management Skills', 'Marketing', 'Technology', 'Marketing', 'Business Management']"
+433,434,Josué Capdevila Guerra,male,44,1,josuécapdevilaguerra@edem.es,Bootcamp Data Science,"['Technology', 'Business Management', 'Finance and Investment']"
+434,435,Lino Macias Ripoll,male,20,2,linomaciasripoll@edem.es,BBA in Business Administration,"['Technology', 'Management Skills', 'Business Management', 'Management Skills']"
+435,436,Jacinta Dominguez,female,18,1,jacintadominguez@edem.es,BSc in Engineering and Management,"['Business Management', 'Marketing', 'Marketing']"
+436,437,Reynaldo Vilalta Mayol,male,19,1,reynaldovilaltamayol@edem.es,BBA in Business Administration,"['Business Management', 'Technology']"
+437,438,Amor Donaire,male,25,1,amordonaire@edem.es,Master Data Analytics,['Management Skills']
+438,439,Hilda Prats Echeverría,female,18,2,hildapratsecheverría@edem.es,BBA in Business Administration,"['Finance and Investment', 'Technology', 'Finance and Investment', 'Finance and Investment']"
+439,440,Maricela del Soto,female,24,1,mariceladelsoto@edem.es,Master Marketing and Digital Sales,"['Marketing', 'Technology', 'Marketing', 'Marketing']"
+440,441,Aníbal Duque Benito,male,21,4,aníbalduquebenito@edem.es,BBA in Business Administration,"['Marketing', 'Business Management', 'Finance and Investment']"
+441,442,Mohamed Benítez Isern,male,23,1,mohamedbenítezisern@edem.es,Bootcamp UX/ UI,"['Technology', 'Technology']"
+442,443,Yésica Belen Sanabria Collado,female,20,3,yésicabelensanabriacollado@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Finance and Investment', 'Management Skills']"
+443,444,Camilo Morera Colomer,male,23,1,camilomoreracolomer@edem.es,Bootcamp Data Science,"['Marketing', 'Management Skills', 'Management Skills', 'Finance and Investment']"
+444,445,Jose Luis Zamora Prat,male,23,1,joseluiszamoraprat@edem.es,MBA Junior,"['Technology', 'Marketing', 'Business Management', 'Management Skills']"
+445,446,Demetrio de Noriega,male,21,3,demetriodenoriega@edem.es,BBA in Business Administration,['Marketing']
+446,447,Valeria Lara Piñeiro Lozano,female,20,4,valerialarapiñeirolozano@edem.es,BBA in Business Administration,"['Finance and Investment', 'Management Skills', 'Management Skills', 'Technology']"
+447,448,Ángel Castejón Agustí,male,20,2,ángelcastejónagustí@edem.es,BBA in Business Administration,['Technology']
+448,449,Nacho Olivé Porta,male,23,1,nachoolivéporta@edem.es,Master Data Analytics,"['Technology', 'Management Skills', 'Management Skills', 'Management Skills', 'Technology']"
+449,450,Emilia Briones Atienza,female,18,3,emiliabrionesatienza@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing', 'Business Management', 'Finance and Investment', 'Marketing']"
+450,451,Ámbar del Bueno,female,24,1,ámbardelbueno@edem.es,MBA Junior,"['Management Skills', 'Marketing', 'Technology', 'Management Skills']"
+451,452,Anabel del Coca,female,23,1,anabeldelcoca@edem.es,Master Marketing and Digital Sales,"['Finance and Investment', 'Technology']"
+452,453,Clemente Gomila-Lobato,male,19,2,clementegomila-lobato@edem.es,BBA in Business Administration,"['Finance and Investment', 'Finance and Investment', 'Business Management', 'Marketing', 'Technology']"
+453,454,Mariano Glauco Rios Río,male,18,1,marianoglaucoriosrío@edem.es,BBA in Business Administration,"['Business Management', 'Technology']"
+454,455,Jafet Casals,male,21,1,jafetcasals@edem.es,BBA in Business Administration,"['Marketing', 'Management Skills', 'Management Skills']"
+455,456,Ana Belén Córdoba Rey,female,20,4,anabeléncórdobarey@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills', 'Management Skills', 'Marketing', 'Technology']"
+456,457,Marcela Macias-Cal,female,23,1,marcelamacias-cal@edem.es,Master Marketing and Digital Sales,"['Management Skills', 'Marketing', 'Management Skills', 'Business Management', 'Marketing']"
+457,458,Isidoro Ureña Riquelme,male,20,2,isidoroureñariquelme@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing', 'Marketing', 'Business Management', 'Technology']"
+458,459,Aránzazu Perez Dominguez,female,20,3,aránzazuperezdominguez@edem.es,BBA in Business Administration,"['Marketing', 'Business Management', 'Business Management']"
+459,460,Víctor Jove Ibarra,male,18,1,víctorjoveibarra@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment', 'Technology', 'Technology', 'Business Management']"
+460,461,Graciana Quiroga Abad,female,19,1,gracianaquirogaabad@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Business Management', 'Finance and Investment', 'Marketing']"
+461,462,Apolinar de Valls,male,18,1,apolinardevalls@edem.es,BBA in Business Administration,['Finance and Investment']
+462,463,Francisco Jose Suárez Bayón,male,20,1,franciscojosesuárezbayón@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment', 'Business Management', 'Technology']"
+463,464,Loreto Mayo Alegria,female,20,1,loretomayoalegria@edem.es,BBA in Business Administration,"['Marketing', 'Marketing', 'Business Management', 'Finance and Investment', 'Finance and Investment']"
+464,465,Alejo Tormo Jove,male,18,3,alejotormojove@edem.es,BBA in Business Administration,"['Technology', 'Marketing']"
+465,466,Jimena Río Salom,female,20,2,jimenaríosalom@edem.es,BSc in Engineering and Management,"['Technology', 'Management Skills', 'Finance and Investment', 'Marketing']"
+466,467,Ramona Álvaro-Lluch,female,18,1,ramonaálvaro-lluch@edem.es,BBA in Business Administration,"['Technology', 'Business Management', 'Marketing']"
+467,468,Viviana Gil-Alberdi,female,18,4,vivianagil-alberdi@edem.es,BBA in Business Administration,"['Business Management', 'Finance and Investment', 'Management Skills']"
+468,469,Dan Bartolomé Perelló,male,19,4,danbartoloméperelló@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing', 'Marketing', 'Business Management', 'Business Management']"
+469,470,Gerónimo Carranza Ibáñez,male,18,1,gerónimocarranzaibáñez@edem.es,BSc in Engineering and Management,"['Management Skills', 'Management Skills', 'Marketing', 'Business Management']"
+470,471,Concepción Sainz,female,18,2,concepciónsainz@edem.es,BBA in Business Administration,"['Management Skills', 'Technology', 'Technology']"
+471,472,Julieta Ángel Borja,female,18,3,julietaángelborja@edem.es,BBA in Business Administration,"['Marketing', 'Marketing', 'Marketing', 'Management Skills']"
+472,473,Arturo Valdés Llorens,male,18,2,arturovaldésllorens@edem.es,BBA in Business Administration,"['Marketing', 'Finance and Investment', 'Marketing']"
+473,474,Rodolfo Uriarte Asenjo,male,20,4,rodolfouriarteasenjo@edem.es,BSc in Engineering and Management,"['Business Management', 'Management Skills', 'Marketing']"
+474,475,Gervasio Roman-Barrena,male,21,2,gervasioroman-barrena@edem.es,BBA in Business Administration,"['Marketing', 'Business Management', 'Finance and Investment']"
+475,476,Amando Catalán Castilla,male,25,1,amandocataláncastilla@edem.es,MBA Junior,"['Business Management', 'Management Skills', 'Finance and Investment', 'Marketing', 'Management Skills']"
+476,477,Bautista Sarabia,male,18,3,bautistasarabia@edem.es,BBA in Business Administration,"['Finance and Investment', 'Technology']"
+477,478,Reynaldo Tejera,male,19,4,reynaldotejera@edem.es,BBA in Business Administration,"['Finance and Investment', 'Business Management', 'Finance and Investment', 'Technology']"
+478,479,Paco Llano,male,24,1,pacollano@edem.es,Master Data Analytics,"['Technology', 'Marketing']"
+479,480,Fanny Valcárcel Téllez,female,27,1,fannyvalcárceltéllez@edem.es,Master Marketing and Digital Sales,"['Technology', 'Finance and Investment', 'Marketing', 'Management Skills']"
+480,481,Modesto Pastor Gilabert,male,18,1,modestopastorgilabert@edem.es,BBA in Business Administration,['Marketing']
+481,482,Malena de Pacheco,female,21,1,malenadepacheco@edem.es,BSc in Engineering and Management,['Business Management']
+482,483,Juan Antonio Martín Calzada,male,19,1,juanantoniomartíncalzada@edem.es,BBA in Business Administration,"['Technology', 'Business Management']"
+483,484,María Luisa Vergara Rosell,female,25,1,maríaluisavergararosell@edem.es,Master Marketing and Digital Sales,['Marketing']
+484,485,Jose Ignacio Fuentes,male,26,1,joseignaciofuentes@edem.es,Master Data Analytics,"['Technology', 'Marketing']"
+485,486,Vera Ramón Nadal,female,20,1,veraramónnadal@edem.es,Bootcamp Data Science,['Marketing']
+486,487,Yéssica Gracia Benavente,female,21,2,yéssicagraciabenavente@edem.es,BBA in Business Administration,"['Business Management', 'Finance and Investment', 'Business Management', 'Marketing']"
+487,488,Nerea Almansa Puente,female,23,1,nereaalmansapuente@edem.es,Master Marketing and Digital Sales,"['Marketing', 'Finance and Investment', 'Technology']"
+488,489,Santos de Agustí,male,18,3,santosdeagustí@edem.es,BBA in Business Administration,['Marketing']
+489,490,Kike Lopez Contreras,male,21,3,kikelopezcontreras@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing', 'Technology']"
+490,491,Ambrosio Bernat-Barragán,male,18,4,ambrosiobernat-barragán@edem.es,BSc in Engineering and Management,"['Marketing', 'Finance and Investment', 'Technology', 'Management Skills']"
+491,492,Simón Paniagua Pedrosa,male,21,4,simónpaniaguapedrosa@edem.es,BSc in Engineering and Management,['Management Skills']
+492,493,Jose Miguel Claudio Martí Vidal,male,18,2,josemiguelclaudiomartívidal@edem.es,BBA in Business Administration,"['Business Management', 'Business Management', 'Finance and Investment', 'Management Skills']"
+493,494,Amor Carlos Rojas,female,18,1,amorcarlosrojas@edem.es,BSc in Engineering and Management,"['Technology', 'Business Management', 'Finance and Investment']"
+494,495,Victor Gil-Pascual,male,18,1,victorgil-pascual@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Finance and Investment', 'Business Management']"
+495,496,Carmen Camps Bustamante,female,19,4,carmencampsbustamante@edem.es,BBA in Business Administration,"['Marketing', 'Technology']"
+496,497,Herminia Salom-Requena,female,18,2,herminiasalom-requena@edem.es,BBA in Business Administration,"['Finance and Investment', 'Management Skills']"
+497,498,Elvira Requena-Villalba,female,19,3,elvirarequena-villalba@edem.es,BSc in Engineering and Management,"['Business Management', 'Marketing', 'Management Skills', 'Business Management']"
+498,499,José Sol Mármol Marín,female,19,2,josésolmármolmarín@edem.es,BBA in Business Administration,['Management Skills']
+499,500,Candelario de Zamorano,male,18,2,candelariodezamorano@edem.es,BSc in Engineering and Management,"['Business Management', 'Finance and Investment', 'Finance and Investment']"
+500,501,Esther Acedo Ferrer,female,19,3,estheracedoferrer@edem.es,BBA in Business Administration,"['Finance and Investment', 'Business Management', 'Marketing']"
+501,502,Jose Miguel Batlle Poza,male,18,1,josemiguelbatllepoza@edem.es,BSc in Engineering and Management,"['Business Management', 'Business Management', 'Marketing']"
+502,503,Rómulo Roman,male,19,1,rómuloroman@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills', 'Finance and Investment']"
+503,504,Carlota Juárez-Agustí,female,18,3,carlotajuárez-agustí@edem.es,BBA in Business Administration,"['Technology', 'Marketing']"
+504,505,Mónica Piñeiro Pareja,female,21,1,mónicapiñeiropareja@edem.es,BSc in Engineering and Management,"['Technology', 'Technology', 'Technology']"
+505,506,Pepita Sancho Robledo,female,19,4,pepitasanchorobledo@edem.es,BBA in Business Administration,"['Marketing', 'Marketing', 'Business Management', 'Business Management', 'Technology']"
+506,507,Adán Mercader Laguna,male,19,2,adánmercaderlaguna@edem.es,BSc in Engineering and Management,['Technology']
+507,508,Ruben Beltran,male,19,2,rubenbeltran@edem.es,BBA in Business Administration,"['Business Management', 'Finance and Investment', 'Technology', 'Finance and Investment', 'Technology']"
+508,509,Nicolás de Fortuny,male,19,1,nicolásdefortuny@edem.es,BSc in Engineering and Management,"['Management Skills', 'Technology', 'Finance and Investment', 'Marketing', 'Technology']"
+509,510,Guillermo Segismundo Rius Casares,male,18,1,guillermosegismundoriuscasares@edem.es,BBA in Business Administration,"['Business Management', 'Technology']"
+510,511,Cruz Jafet Carranza Hoyos,male,18,4,cruzjafetcarranzahoyos@edem.es,BSc in Engineering and Management,"['Technology', 'Finance and Investment', 'Finance and Investment', 'Technology', 'Technology']"
+511,512,Ramón Gracia Trillo,male,19,1,ramóngraciatrillo@edem.es,BBA in Business Administration,"['Technology', 'Marketing', 'Business Management', 'Management Skills', 'Marketing']"
+512,513,Salvador Heliodoro Falcón Bayo,male,27,1,salvadorheliodorofalcónbayo@edem.es,Master Marketing and Digital Sales,"['Technology', 'Finance and Investment']"
+513,514,Luis Miguel Sáenz-Carvajal,male,18,1,luismiguelsáenz-carvajal@edem.es,BBA in Business Administration,"['Business Management', 'Technology', 'Finance and Investment']"
+514,515,Matías Orozco Jaén,male,25,1,matíasorozcojaén@edem.es,Master Marketing and Digital Sales,['Marketing']
+515,516,Oriana Escrivá Prada,female,27,1,orianaescriváprada@edem.es,Master Data Analytics,"['Finance and Investment', 'Technology', 'Business Management', 'Business Management']"
+516,517,José Armas Anguita,male,18,1,joséarmasanguita@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing', 'Technology', 'Marketing']"
+517,518,Jose Llobet Solera,male,20,1,josellobetsolera@edem.es,BSc in Engineering and Management,"['Management Skills', 'Business Management', 'Business Management', 'Technology']"
+518,519,Irene del Miguel,female,19,1,irenedelmiguel@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Marketing', 'Management Skills']"
+519,520,Desiderio Bayón Manjón,male,18,3,desideriobayónmanjón@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills']"
+520,521,Raimundo Peiró Miró,male,20,1,raimundopeirómiró@edem.es,Bootcamp Cibersecurity,['Business Management']
+521,522,Feliciano Beltran Gil,male,18,1,felicianobeltrangil@edem.es,BBA in Business Administration,"['Technology', 'Business Management', 'Technology']"
+522,523,Roxana Llorens Segura,female,18,4,roxanallorenssegura@edem.es,BBA in Business Administration,"['Marketing', 'Management Skills', 'Management Skills', 'Management Skills']"
+523,524,Ignacio Pol Domínguez,male,25,1,ignaciopoldomínguez@edem.es,Master Marketing and Digital Sales,['Finance and Investment']
+524,525,Magdalena Flor Becerra,female,18,4,magdalenaflorbecerra@edem.es,BBA in Business Administration,"['Business Management', 'Marketing', 'Marketing', 'Management Skills']"
+525,526,Ricardo Sobrino Roura,male,25,1,ricardosobrinoroura@edem.es,Master Marketing and Digital Sales,['Finance and Investment']
+526,527,Mohamed del Azorin,male,22,1,mohameddelazorin@edem.es,Bootcamp Data Science,['Technology']
+527,528,Vera Monreal Esparza,female,18,4,veramonrealesparza@edem.es,BSc in Engineering and Management,['Management Skills']
+528,529,Jose Antonio Ariza Fuertes,male,18,1,joseantonioarizafuertes@edem.es,BSc in Engineering and Management,['Technology']
+529,530,Teodosio Fortuny Olivera,male,18,3,teodosiofortunyolivera@edem.es,BSc in Engineering and Management,"['Technology', 'Business Management']"
+530,531,Leocadia Mir,female,21,2,leocadiamir@edem.es,BSc in Engineering and Management,['Finance and Investment']
+531,532,Remedios Pera,female,19,4,remediospera@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing', 'Technology']"
+532,533,Roque del Cordero,male,21,3,roquedelcordero@edem.es,BBA in Business Administration,"['Technology', 'Business Management', 'Management Skills', 'Management Skills', 'Finance and Investment']"
+533,534,Luisina Cerezo Carreño,female,19,4,luisinacerezocarreño@edem.es,BSc in Engineering and Management,"['Management Skills', 'Management Skills', 'Finance and Investment', 'Marketing', 'Marketing']"
+534,535,René Pedro Royo,male,18,4,renépedroroyo@edem.es,BBA in Business Administration,"['Business Management', 'Technology']"
+535,536,Azahar Fuentes Torre,female,25,1,azaharfuentestorre@edem.es,Master Marketing and Digital Sales,"['Finance and Investment', 'Management Skills', 'Business Management', 'Management Skills']"
+536,537,Patricio Pablo-Herranz,male,19,3,patriciopablo-herranz@edem.es,BSc in Engineering and Management,"['Management Skills', 'Technology', 'Finance and Investment', 'Management Skills', 'Business Management']"
+537,538,Toño Morera Ramírez,male,18,3,toñomoreraramírez@edem.es,BBA in Business Administration,"['Management Skills', 'Management Skills', 'Marketing', 'Finance and Investment']"
+538,539,Loreto Iriarte Marqués,male,23,1,loretoiriartemarqués@edem.es,Master Marketing and Digital Sales,"['Marketing', 'Technology', 'Marketing', 'Technology']"
+539,540,Margarita de Cabrera,female,18,2,margaritadecabrera@edem.es,BSc in Engineering and Management,"['Management Skills', 'Management Skills']"
+540,541,Artemio Mínguez Figuerola,male,23,1,artemiomínguezfiguerola@edem.es,Master Data Analytics,"['Business Management', 'Marketing', 'Marketing']"
+541,542,Baudelio Morales Andrés,male,21,1,baudeliomoralesandrés@edem.es,Bootcamp Full Stack,['Technology']
+542,543,Natalio Bello Sarmiento,male,18,2,nataliobellosarmiento@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Management Skills']"
+543,544,Manuela del Coca,female,19,1,manueladelcoca@edem.es,BSc in Engineering and Management,"['Business Management', 'Marketing', 'Finance and Investment', 'Business Management', 'Business Management']"
+544,545,Silvio Fabra-Saura,male,19,1,silviofabra-saura@edem.es,BBA in Business Administration,"['Management Skills', 'Management Skills', 'Marketing', 'Management Skills', 'Marketing']"
+545,546,Régulo Casanovas Peñalver,male,18,4,régulocasanovaspeñalver@edem.es,BBA in Business Administration,"['Marketing', 'Marketing']"
+546,547,Teobaldo Solís Arroyo,male,21,1,teobaldosolísarroyo@edem.es,Bootcamp Data Science,['Business Management']
+547,548,Borja Solís Rivas,male,18,1,borjasolísrivas@edem.es,BBA in Business Administration,"['Marketing', 'Business Management', 'Business Management', 'Management Skills']"
+548,549,María Del Carmen Bello-Cuadrado,female,18,4,maríadelcarmenbello-cuadrado@edem.es,BBA in Business Administration,"['Technology', 'Business Management']"
+549,550,Glauco del Gomez,male,18,1,glaucodelgomez@edem.es,BSc in Engineering and Management,"['Technology', 'Business Management', 'Management Skills', 'Management Skills']"
+550,551,Susanita Jaén Pastor,female,21,4,susanitajaénpastor@edem.es,BBA in Business Administration,"['Technology', 'Marketing', 'Business Management', 'Business Management']"
+551,552,Reyes Nicolás,female,19,3,reyesnicolás@edem.es,BBA in Business Administration,"['Marketing', 'Management Skills', 'Technology']"
+552,553,Máximo Garay Navarro,male,18,2,máximogaraynavarro@edem.es,BSc in Engineering and Management,"['Marketing', 'Business Management', 'Finance and Investment', 'Technology', 'Technology']"
+553,554,Vasco Conde,male,27,1,vascoconde@edem.es,Master Marketing and Digital Sales,"['Management Skills', 'Finance and Investment', 'Management Skills', 'Technology']"
+554,555,Corona Navas-Rodrigo,female,25,1,coronanavas-rodrigo@edem.es,Master Data Analytics,"['Technology', 'Business Management']"
+555,556,Mercedes Méndez Aroca,female,18,3,mercedesméndezaroca@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing', 'Marketing']"
+556,557,Aristides Villalobos Segura,male,19,2,aristidesvillalobossegura@edem.es,BSc in Engineering and Management,"['Technology', 'Business Management', 'Management Skills', 'Finance and Investment']"
+557,558,Palmira Vilaplana,female,20,1,palmiravilaplana@edem.es,Bootcamp UX/ UI,"['Technology', 'Marketing', 'Technology', 'Business Management', 'Finance and Investment']"
+558,559,Micaela Pineda Andres,female,27,1,micaelapinedaandres@edem.es,Master Marketing and Digital Sales,['Marketing']
+559,560,Ibán de Gallart,male,19,1,ibándegallart@edem.es,BBA in Business Administration,['Marketing']
+560,561,Rosenda Estrella Fernández Arellano,female,18,2,rosendaestrellafernándezarellano@edem.es,BBA in Business Administration,['Business Management']
+561,562,Leonardo Vall,male,20,1,leonardovall@edem.es,BBA in Business Administration,"['Finance and Investment', 'Business Management', 'Finance and Investment', 'Finance and Investment']"
+562,563,Lupe Abella Gallo,male,19,2,lupeabellagallo@edem.es,BBA in Business Administration,"['Technology', 'Management Skills']"
+563,564,Odalis Mascaró Fonseca,female,19,1,odalismascarófonseca@edem.es,BBA in Business Administration,"['Business Management', 'Marketing', 'Marketing', 'Business Management', 'Finance and Investment']"
+564,565,Modesto Frías,male,25,1,modestofrías@edem.es,Master Data Analytics,"['Technology', 'Finance and Investment', 'Technology', 'Management Skills', 'Marketing']"
+565,566,Inmaculada Blanch Lamas,female,23,1,inmaculadablanchlamas@edem.es,Master Data Analytics,['Technology']
+566,567,Cesar Mayo Gonzalez,male,18,2,cesarmayogonzalez@edem.es,BSc in Engineering and Management,"['Marketing', 'Marketing', 'Finance and Investment', 'Finance and Investment']"
+567,568,Samanta Blanch Abascal,female,46,1,samantablanchabascal@edem.es,Bootcamp Data Science,"['Management Skills', 'Business Management']"
+568,569,Pancho Real Torrent,male,18,3,panchorealtorrent@edem.es,BBA in Business Administration,"['Marketing', 'Management Skills', 'Management Skills']"
+569,570,Yago Linares Piñol,male,26,1,yagolinarespiñol@edem.es,Master Data Analytics,"['Marketing', 'Technology', 'Management Skills']"
+570,571,Jose Villaverde Revilla,male,18,4,josevillaverderevilla@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing']"
+571,572,René Bauzà Bellido,male,18,2,renébauzàbellido@edem.es,BBA in Business Administration,['Business Management']
+572,573,Roldán Garrido Naranjo,male,18,4,roldángarridonaranjo@edem.es,BBA in Business Administration,['Finance and Investment']
+573,574,Angelina Nogués-Cañete,female,35,1,angelinanogués-cañete@edem.es,Bootcamp Full Stack,"['Management Skills', 'Technology', 'Business Management', 'Business Management']"
+574,575,Calisto Jerez Quirós,male,20,1,calistojerezquirós@edem.es,BBA in Business Administration,['Technology']
+575,576,Malena Sanjuan Bastida,female,23,1,malenasanjuanbastida@edem.es,Master Marketing and Digital Sales,"['Business Management', 'Management Skills', 'Marketing', 'Marketing']"
+576,577,Chuy Briones Martínez,male,18,3,chuybrionesmartínez@edem.es,BBA in Business Administration,"['Marketing', 'Management Skills', 'Marketing', 'Business Management', 'Technology']"
+577,578,Herminio Barral-Castells,male,18,2,herminiobarral-castells@edem.es,BBA in Business Administration,"['Finance and Investment', 'Finance and Investment', 'Marketing']"
+578,579,Nicolasa Mayoral Vila,female,19,2,nicolasamayoralvila@edem.es,BBA in Business Administration,"['Technology', 'Finance and Investment', 'Marketing', 'Management Skills', 'Marketing']"
+579,580,Remedios Cepeda,female,18,4,remedioscepeda@edem.es,BBA in Business Administration,"['Finance and Investment', 'Marketing', 'Marketing', 'Marketing', 'Management Skills']"
+580,581,Wilfredo Gibert Portillo,male,19,1,wilfredogibertportillo@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing', 'Management Skills', 'Marketing', 'Management Skills']"
+581,582,Eduardo del Alemán,male,23,1,eduardodelalemán@edem.es,Master Data Analytics,"['Business Management', 'Business Management']"
+582,583,Evelia Carvajal Castilla,female,25,1,eveliacarvajalcastilla@edem.es,Master Data Analytics,['Technology']
+583,584,Cintia Ramis Gual,female,18,1,cintiaramisgual@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Technology', 'Marketing']"
+584,585,Graciana Soria,female,24,1,gracianasoria@edem.es,Master Finance,"['Business Management', 'Business Management', 'Technology']"
+585,586,Leonel Seguí Salvà,male,18,1,leonelseguísalvà@edem.es,BBA in Business Administration,"['Finance and Investment', 'Management Skills', 'Marketing']"
+586,587,Jerónimo Moles Solsona,male,19,2,jerónimomolessolsona@edem.es,BBA in Business Administration,"['Management Skills', 'Technology', 'Management Skills', 'Finance and Investment']"
+587,588,Águeda Jimena Ferrero Ibañez,female,18,3,águedajimenaferreroibañez@edem.es,BBA in Business Administration,"['Business Management', 'Finance and Investment', 'Business Management', 'Business Management', 'Business Management']"
+588,589,Jose Aureliano Bernal Campillo,male,19,1,joseaurelianobernalcampillo@edem.es,BBA in Business Administration,['Management Skills']
+589,590,Melisa del Arco,female,19,1,melisadelarco@edem.es,BSc in Engineering and Management,"['Business Management', 'Business Management', 'Business Management', 'Management Skills']"
+590,591,Elisa del Botella,female,27,1,elisadelbotella@edem.es,Master Data Analytics,['Finance and Investment']
+591,592,Victor Andrade Aguiló,male,18,3,victorandradeaguiló@edem.es,BSc in Engineering and Management,"['Technology', 'Business Management', 'Finance and Investment']"
+592,593,Chus Cañas Prada,female,18,4,chuscañasprada@edem.es,BSc in Engineering and Management,['Finance and Investment']
+593,594,Salomón Conrado Crespo Ojeda,male,23,1,salomónconradocrespoojeda@edem.es,Master Marketing and Digital Sales,"['Technology', 'Technology', 'Finance and Investment', 'Finance and Investment']"
+594,595,Rubén Bueno Andreu,male,18,1,rubénbuenoandreu@edem.es,BBA in Business Administration,"['Finance and Investment', 'Technology', 'Management Skills', 'Management Skills', 'Management Skills']"
+595,596,Flavia Hoyos-Gelabert,female,26,1,flaviahoyos-gelabert@edem.es,Master Finance,"['Business Management', 'Business Management', 'Technology', 'Marketing']"
+596,597,Aroa Prado Vazquez,female,21,4,aroapradovazquez@edem.es,BBA in Business Administration,"['Technology', 'Finance and Investment']"
+597,598,Elba Cadenas,female,19,1,elbacadenas@edem.es,BBA in Business Administration,"['Finance and Investment', 'Management Skills', 'Management Skills', 'Finance and Investment']"
+598,599,María José Cano Osorio,female,18,1,maríajosécanoosorio@edem.es,BSc in Engineering and Management,"['Technology', 'Technology']"
+599,600,Amalia Heredia,female,25,1,amaliaheredia@edem.es,Bootcamp Data Science,"['Business Management', 'Management Skills', 'Marketing', 'Business Management']"
+600,601,Ignacio Nico Alcalde Miranda,male,18,1,ignacionicoalcaldemiranda@edem.es,BSc in Engineering and Management,"['Technology', 'Finance and Investment', 'Finance and Investment', 'Management Skills']"
+601,602,Basilio Ropero Lucena,male,20,4,basilioroperolucena@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management', 'Marketing', 'Management Skills']"
+602,603,Lara Valencia-Losada,female,18,2,laravalencia-losada@edem.es,BBA in Business Administration,"['Technology', 'Marketing', 'Business Management']"
+603,604,Maximino Vila-Puga,male,26,1,maximinovila-puga@edem.es,Master Marketing and Digital Sales,"['Finance and Investment', 'Management Skills', 'Marketing', 'Management Skills', 'Management Skills']"
+604,605,Alejandra Anguita Chacón,female,20,4,alejandraanguitachacón@edem.es,BBA in Business Administration,"['Marketing', 'Management Skills', 'Business Management', 'Technology']"
+605,606,Jordán Villar Busquets,male,19,4,jordánvillarbusquets@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills', 'Management Skills', 'Business Management', 'Management Skills']"
+606,607,Vidal Nevado Guardiola,male,21,2,vidalnevadoguardiola@edem.es,BBA in Business Administration,"['Finance and Investment', 'Marketing', 'Finance and Investment', 'Business Management', 'Finance and Investment']"
+607,608,Kike Ferrero Avilés,male,26,1,kikeferreroavilés@edem.es,Master Marketing and Digital Sales,"['Marketing', 'Management Skills', 'Business Management', 'Marketing']"
+608,609,Roldán Bou,male,19,2,roldánbou@edem.es,BSc in Engineering and Management,['Marketing']
+609,610,Carlota Segarra Marquez,female,21,4,carlotasegarramarquez@edem.es,BSc in Engineering and Management,"['Business Management', 'Finance and Investment', 'Management Skills', 'Management Skills']"
+610,611,Áurea Ferreras Sebastián,female,20,4,áureaferrerassebastián@edem.es,BBA in Business Administration,"['Business Management', 'Business Management']"
+611,612,Francisco Jose Velasco Tapia,male,19,1,franciscojosevelascotapia@edem.es,BBA in Business Administration,['Technology']
+612,613,Calixto Gilabert Canales,male,19,3,calixtogilabertcanales@edem.es,BBA in Business Administration,"['Technology', 'Technology', 'Technology', 'Marketing', 'Business Management']"
+613,614,Ambrosio Pinto Sastre,male,19,2,ambrosiopintosastre@edem.es,BBA in Business Administration,"['Finance and Investment', 'Marketing', 'Business Management', 'Marketing', 'Technology']"
+614,615,Armando Barros Corral,male,20,3,armandobarroscorral@edem.es,BBA in Business Administration,['Finance and Investment']
+615,616,Samanta Llano Ferrera,female,19,2,samantallanoferrera@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills']"
+616,617,Amalia Goñi-Llanos,female,24,1,amaliagoñi-llanos@edem.es,Master Marketing and Digital Sales,"['Finance and Investment', 'Marketing', 'Business Management', 'Management Skills', 'Business Management']"
+617,618,Cosme Galiano-Fuente,male,20,1,cosmegaliano-fuente@edem.es,BBA in Business Administration,"['Finance and Investment', 'Finance and Investment', 'Management Skills', 'Business Management']"
+618,619,Narcisa Gascón Bernat,female,19,4,narcisagascónbernat@edem.es,BBA in Business Administration,"['Technology', 'Technology', 'Technology', 'Management Skills', 'Business Management']"
+619,620,Crescencia Valcárcel,female,18,1,crescenciavalcárcel@edem.es,BBA in Business Administration,"['Business Management', 'Finance and Investment', 'Marketing', 'Technology', 'Management Skills']"
+620,621,Tiburcio Toledo Miguel,male,18,1,tiburciotoledomiguel@edem.es,BBA in Business Administration,['Finance and Investment']
+621,622,Delia Vicente Figuerola,female,18,2,deliavicentefiguerola@edem.es,BSc in Engineering and Management,"['Management Skills', 'Management Skills']"
+622,623,Natalio Cabo Paz,male,19,4,nataliocabopaz@edem.es,BSc in Engineering and Management,"['Technology', 'Management Skills']"
+623,624,Mamen del Vara,female,19,2,mamendelvara@edem.es,BSc in Engineering and Management,['Technology']
+624,625,Teófilo Palma Mármol,male,19,3,teófilopalmamármol@edem.es,BBA in Business Administration,"['Management Skills', 'Management Skills', 'Marketing', 'Finance and Investment']"
+625,626,Susanita Ferrán Rivas,female,25,1,susanitaferránrivas@edem.es,Master Marketing and Digital Sales,"['Business Management', 'Business Management', 'Finance and Investment']"
+626,627,Custodia Barón Vendrell,female,19,4,custodiabarónvendrell@edem.es,BSc in Engineering and Management,"['Technology', 'Technology']"
+627,628,Jacobo Calixto Llorens Nicolau,male,18,4,jacobocalixtollorensnicolau@edem.es,BSc in Engineering and Management,"['Technology', 'Marketing', 'Management Skills']"
+628,629,Josefa Ariza Valentín,female,18,2,josefaarizavalentín@edem.es,BBA in Business Administration,"['Business Management', 'Finance and Investment', 'Business Management', 'Management Skills']"
+629,630,Aurelio Alvarez-Segovia,male,18,4,aurelioalvarez-segovia@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Technology', 'Finance and Investment', 'Management Skills']"
+630,631,Tiburcio Guardia-Barco,male,45,1,tiburcioguardia-barco@edem.es,Bootcamp Full Stack,"['Business Management', 'Marketing', 'Finance and Investment']"
+631,632,Edelmiro Suárez Camacho,male,18,3,edelmirosuárezcamacho@edem.es,BBA in Business Administration,['Business Management']
+632,633,Cristian Salas-Beltrán,male,18,1,cristiansalas-beltrán@edem.es,BBA in Business Administration,"['Finance and Investment', 'Management Skills', 'Technology', 'Management Skills', 'Marketing']"
+633,634,Trinidad Trillo Goñi,female,19,2,trinidadtrillogoñi@edem.es,BSc in Engineering and Management,"['Marketing', 'Management Skills', 'Management Skills', 'Management Skills', 'Finance and Investment']"
+634,635,Silvio Gabaldón Zaragoza,male,18,4,silviogabaldónzaragoza@edem.es,BSc in Engineering and Management,"['Marketing', 'Business Management', 'Marketing']"
+635,636,José María Morcillo Vizcaíno,male,18,1,josémaríamorcillovizcaíno@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Business Management']"
+636,637,Alejandra Carmona,female,19,3,alejandracarmona@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Management Skills', 'Finance and Investment']"
+637,638,Bernardo Diéguez,male,19,1,bernardodiéguez@edem.es,BSc in Engineering and Management,"['Technology', 'Technology']"
+638,639,Teo Buendía Urrutia,male,18,3,teobuendíaurrutia@edem.es,BBA in Business Administration,"['Technology', 'Technology']"
+639,640,Enrique Boix Calderon,male,18,1,enriqueboixcalderon@edem.es,BBA in Business Administration,"['Business Management', 'Business Management', 'Business Management', 'Marketing']"
+640,641,Aureliano Palomares Oller,male,50,1,aurelianopalomaresoller@edem.es,Bootcamp Full Stack,"['Finance and Investment', 'Management Skills', 'Finance and Investment', 'Marketing', 'Business Management']"
+641,642,Asdrubal Gordillo Ibáñez,male,19,3,asdrubalgordilloibáñez@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Finance and Investment']"
+642,643,Alma Alemán Berrocal,female,18,4,almaalemánberrocal@edem.es,BBA in Business Administration,"['Marketing', 'Technology', 'Technology', 'Business Management']"
+643,644,Luís Coloma,male,18,2,luíscoloma@edem.es,BSc in Engineering and Management,"['Business Management', 'Technology', 'Finance and Investment', 'Technology']"
+644,645,Leoncio Royo Barón,male,25,1,leoncioroyobarón@edem.es,Master Finance,"['Management Skills', 'Management Skills']"
+645,646,Plinio Gaya Frutos,male,18,2,pliniogayafrutos@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management', 'Technology', 'Business Management', 'Technology']"
+646,647,Francisco Guillen Blanco,male,25,1,franciscoguillenblanco@edem.es,Master Finance,"['Finance and Investment', 'Finance and Investment', 'Business Management', 'Marketing', 'Management Skills']"
+647,648,Mar Ibáñez Soriano,female,21,3,maribáñezsoriano@edem.es,BBA in Business Administration,['Business Management']
+648,649,Mauricio Sala Caparrós,male,19,2,mauriciosalacaparrós@edem.es,BBA in Business Administration,"['Technology', 'Marketing', 'Finance and Investment', 'Marketing']"
+649,650,Danilo Fuertes-Berrocal,male,19,2,danilofuertes-berrocal@edem.es,BBA in Business Administration,"['Management Skills', 'Marketing']"
+650,651,Wálter Amador Canales Acero,male,20,4,wálteramadorcanalesacero@edem.es,BSc in Engineering and Management,"['Management Skills', 'Marketing', 'Finance and Investment', 'Marketing']"
+651,652,Eric Dueñas Escrivá,male,19,1,ericdueñasescrivá@edem.es,BSc in Engineering and Management,['Business Management']
+652,653,África Bernat-Cantón,female,27,1,áfricabernat-cantón@edem.es,Bootcamp Data Science,"['Management Skills', 'Business Management']"
+653,654,Merche Prada,female,18,2,mercheprada@edem.es,BBA in Business Administration,"['Marketing', 'Business Management', 'Technology']"
+654,655,Alejandro del Menendez,male,27,1,alejandrodelmenendez@edem.es,Master Data Analytics,"['Finance and Investment', 'Management Skills', 'Management Skills', 'Finance and Investment', 'Management Skills']"
+655,656,María Jesús Cisneros Vargas,female,18,2,maríajesúscisnerosvargas@edem.es,BBA in Business Administration,"['Technology', 'Finance and Investment', 'Marketing']"
+656,657,Georgina Palmer Ibañez,female,18,1,georginapalmeribañez@edem.es,BSc in Engineering and Management,"['Management Skills', 'Management Skills', 'Marketing']"
+657,658,Chuy Torrents-Jara,male,19,3,chuytorrents-jara@edem.es,BBA in Business Administration,['Finance and Investment']
+658,659,Marciano Sola Camacho,male,20,1,marcianosolacamacho@edem.es,BSc in Engineering and Management,"['Marketing', 'Marketing', 'Marketing', 'Finance and Investment']"
+659,660,Xavier Checa Adadia,male,21,3,xavierchecaadadia@edem.es,BSc in Engineering and Management,"['Management Skills', 'Business Management']"
+660,661,Eleuterio Anaya Cerdán,male,18,3,eleuterioanayacerdán@edem.es,BBA in Business Administration,"['Business Management', 'Business Management']"
+661,662,Anastasio Expósito Carrión,male,19,1,anastasioexpósitocarrión@edem.es,BBA in Business Administration,"['Finance and Investment', 'Business Management', 'Business Management', 'Management Skills']"
+662,663,Buenaventura Barreda Sanmartín,male,21,1,buenaventurabarredasanmartín@edem.es,Bootcamp Cibersecurity,['Business Management']
+663,664,César Boix Montoya,male,19,2,césarboixmontoya@edem.es,BSc in Engineering and Management,['Technology']
+664,665,Aroa Pazos Rios,female,27,1,aroapazosrios@edem.es,Master Marketing and Digital Sales,"['Business Management', 'Marketing', 'Technology']"
+665,666,Jose Angel Otero Céspedes,male,19,3,joseangeloterocéspedes@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment', 'Business Management', 'Business Management']"
+666,667,Ariel del Suárez,female,24,1,arieldelsuárez@edem.es,Master Marketing and Digital Sales,"['Business Management', 'Business Management', 'Marketing', 'Business Management']"
+667,668,Josefa Montero Oliveras,female,18,1,josefamonterooliveras@edem.es,BBA in Business Administration,"['Management Skills', 'Technology', 'Management Skills', 'Management Skills']"
+668,669,Pedro Rico Carballo Franco,male,18,2,pedroricocarballofranco@edem.es,BBA in Business Administration,"['Management Skills', 'Technology', 'Technology']"
+669,670,Priscila Plana Saldaña,female,18,2,priscilaplanasaldaña@edem.es,BBA in Business Administration,"['Business Management', 'Marketing', 'Business Management', 'Finance and Investment']"
+670,671,César Lopez Domingo,male,18,2,césarlopezdomingo@edem.es,BBA in Business Administration,"['Finance and Investment', 'Marketing', 'Finance and Investment', 'Technology']"
+671,672,Ambrosio Pina-Cortes,male,26,1,ambrosiopina-cortes@edem.es,Master Finance,"['Management Skills', 'Business Management', 'Finance and Investment', 'Business Management']"
+672,673,Ernesto Olivares Amor,male,20,1,ernestoolivaresamor@edem.es,Bootcamp UX/ UI,"['Marketing', 'Marketing']"
+673,674,Teo Rubio Plaza,male,18,1,teorubioplaza@edem.es,BBA in Business Administration,['Business Management']
+674,675,Anastasio del Egea,male,19,3,anastasiodelegea@edem.es,BBA in Business Administration,"['Finance and Investment', 'Business Management', 'Business Management']"
+675,676,Plinio Saez Raya,male,18,3,pliniosaezraya@edem.es,BBA in Business Administration,['Management Skills']
+676,677,Paula Mora,female,26,1,paulamora@edem.es,Master Marketing and Digital Sales,"['Business Management', 'Business Management', 'Technology']"
+677,678,Fabio Lloret Asenjo,male,31,1,fabiolloretasenjo@edem.es,Bootcamp Data Science,['Business Management']
+678,679,Chus Bernal-Cañete,female,18,4,chusbernal-cañete@edem.es,BSc in Engineering and Management,['Management Skills']
+679,680,Fanny Llanos Briones,female,18,4,fannyllanosbriones@edem.es,BSc in Engineering and Management,['Finance and Investment']
+680,681,Severiano Arias Pelayo,male,18,4,severianoariaspelayo@edem.es,BBA in Business Administration,"['Technology', 'Technology']"
+681,682,Arcelia Benavente Fernández,female,19,3,arceliabenaventefernández@edem.es,BSc in Engineering and Management,['Business Management']
+682,683,José Manuel Roig,male,18,3,josémanuelroig@edem.es,BSc in Engineering and Management,['Marketing']
+683,684,Toni Julián Maldonado Paniagua,male,18,1,tonijuliánmaldonadopaniagua@edem.es,BSc in Engineering and Management,"['Business Management', 'Technology', 'Management Skills', 'Finance and Investment']"
+684,685,Blas Villalobos Ros,male,19,1,blasvillalobosros@edem.es,BSc in Engineering and Management,['Finance and Investment']
+685,686,Narcisa Serna Llabrés,female,18,2,narcisasernallabrés@edem.es,BBA in Business Administration,"['Marketing', 'Finance and Investment', 'Business Management']"
+686,687,Aureliano Delgado Matas,male,19,3,aurelianodelgadomatas@edem.es,BBA in Business Administration,"['Business Management', 'Business Management']"
+687,688,Samuel Pedrero Pont,male,18,1,samuelpedreropont@edem.es,BBA in Business Administration,['Technology']
+688,689,Remigio Valenciano Cervera,male,18,1,remigiovalencianocervera@edem.es,BBA in Business Administration,['Business Management']
+689,690,Eligia Vizcaíno Pagès,female,18,4,eligiavizcaínopagès@edem.es,BBA in Business Administration,"['Technology', 'Business Management']"
+690,691,Victorino Cuervo Gaya,male,18,4,victorinocuervogaya@edem.es,BBA in Business Administration,"['Marketing', 'Business Management']"
+691,692,Mateo Villa-Pablo,male,18,2,mateovilla-pablo@edem.es,BBA in Business Administration,"['Marketing', 'Finance and Investment', 'Finance and Investment', 'Business Management']"
+692,693,Porfirio Jerez Gras,male,18,4,porfiriojerezgras@edem.es,BBA in Business Administration,"['Business Management', 'Management Skills', 'Technology', 'Business Management', 'Management Skills']"
+693,694,Mauricio Reina Arnau,male,26,1,mauricioreinaarnau@edem.es,MBA Junior,['Management Skills']
+694,695,Fernando Alberola-Olivera,male,27,1,fernandoalberola-olivera@edem.es,Master Marketing and Digital Sales,"['Business Management', 'Business Management', 'Business Management', 'Business Management', 'Marketing']"
+695,696,Dorita Vilar-Ferrán,female,19,3,doritavilar-ferrán@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management', 'Finance and Investment']"
+696,697,Isidoro Romeu Prieto,male,18,4,isidororomeuprieto@edem.es,BBA in Business Administration,"['Management Skills', 'Finance and Investment', 'Marketing', 'Marketing']"
+697,698,Bautista Julián Pinto Ledesma,male,24,1,bautistajuliánpintoledesma@edem.es,MBA Junior,"['Management Skills', 'Management Skills', 'Business Management', 'Finance and Investment']"
+698,699,Sebastian Mesa,male,19,2,sebastianmesa@edem.es,BBA in Business Administration,['Marketing']
+699,700,Estela Velázquez Calvo,female,20,3,estelavelázquezcalvo@edem.es,BBA in Business Administration,"['Finance and Investment', 'Marketing', 'Technology']"
+700,701,Román Santamaria Cañas,male,18,4,románsantamariacañas@edem.es,BBA in Business Administration,"['Technology', 'Finance and Investment', 'Technology']"
+701,702,Estefanía Velasco Neira,female,24,1,estefaníavelasconeira@edem.es,MBA Junior,['Finance and Investment']
+702,703,Eutimio Luís Lorenzo,male,26,1,eutimioluíslorenzo@edem.es,Master Data Analytics,['Finance and Investment']
+703,704,Gregorio Domínguez Paredes,male,18,1,gregoriodomínguezparedes@edem.es,BSc in Engineering and Management,"['Finance and Investment', 'Finance and Investment']"
+704,705,Clemente Urbano Lozano Giménez,male,18,3,clementeurbanolozanogiménez@edem.es,BSc in Engineering and Management,"['Technology', 'Business Management', 'Technology', 'Technology']"
+705,706,Maricruz Frías Francisco,female,19,1,maricruzfríasfrancisco@edem.es,BBA in Business Administration,"['Finance and Investment', 'Technology', 'Business Management', 'Management Skills']"
+706,707,Óscar Zamorano Barberá,male,23,1,óscarzamoranobarberá@edem.es,Master Marketing and Digital Sales,"['Finance and Investment', 'Marketing', 'Marketing']"
+707,708,Rolando Pino Peral,male,21,3,rolandopinoperal@edem.es,BBA in Business Administration,"['Technology', 'Management Skills']"
+708,709,Conrado David Mata Uriarte,male,18,1,conradodavidmatauriarte@edem.es,BBA in Business Administration,['Management Skills']
+709,710,Alejandra Martin Giménez,female,19,2,alejandramartingiménez@edem.es,BSc in Engineering and Management,"['Business Management', 'Marketing', 'Finance and Investment', 'Finance and Investment']"
+710,711,Perlita Chaves,female,19,4,perlitachaves@edem.es,BBA in Business Administration,"['Finance and Investment', 'Business Management', 'Finance and Investment', 'Business Management']"
+711,712,Artemio Mayo Ferreras,male,19,4,artemiomayoferreras@edem.es,BBA in Business Administration,"['Finance and Investment', 'Business Management']"
+712,713,Olalla Gallo Salmerón,female,23,1,olallagallosalmerón@edem.es,Bootcamp Data Science,['Finance and Investment']
+713,714,Eladio de Amo,male,19,2,eladiodeamo@edem.es,BBA in Business Administration,"['Technology', 'Business Management', 'Business Management']"
+714,715,Flora Sanz-Angulo,female,21,2,florasanz-angulo@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management']"
+715,716,Ana Belén Molins Badía,female,18,1,anabelénmolinsbadía@edem.es,BSc in Engineering and Management,"['Business Management', 'Finance and Investment', 'Marketing']"
+716,717,Régulo Barón Bonilla,male,18,1,régulobarónbonilla@edem.es,BSc in Engineering and Management,"['Marketing', 'Management Skills', 'Finance and Investment']"
+717,718,Cándido Quirós Riba,male,18,2,cándidoquirósriba@edem.es,BBA in Business Administration,"['Business Management', 'Technology', 'Technology', 'Finance and Investment', 'Marketing']"
+718,719,Albert Agustí Jurado,male,18,1,albertagustíjurado@edem.es,BBA in Business Administration,"['Management Skills', 'Management Skills']"
+719,720,Leandro Baldomero Bárcena Gelabert,male,19,1,leandrobaldomerobárcenagelabert@edem.es,BBA in Business Administration,['Marketing']
+720,721,Vicente Amorós-Moliner,male,19,2,vicenteamorós-moliner@edem.es,BSc in Engineering and Management,['Management Skills']
+721,722,Plácido Toledo Morales,male,27,1,plácidotoledomorales@edem.es,Bootcamp Data Science,"['Finance and Investment', 'Marketing', 'Finance and Investment', 'Finance and Investment', 'Management Skills']"
+722,723,Ángela Dominga Bernat Larrañaga,female,23,1,ángeladomingabernatlarrañaga@edem.es,Master Data Analytics,"['Finance and Investment', 'Marketing']"
+723,724,Ruperto Riquelme Jódar,male,18,3,rupertoriquelmejódar@edem.es,BBA in Business Administration,['Technology']
+724,725,Leticia Nadia Lobato León,female,41,1,leticianadialobatoleón@edem.es,Bootcamp Data Science,"['Management Skills', 'Management Skills', 'Marketing', 'Management Skills']"
+725,726,Tamara Marita Seguí Mena,female,20,1,tamaramaritaseguímena@edem.es,Bootcamp Cibersecurity,['Technology']
+726,727,Raimundo Checa Salvador,male,19,4,raimundochecasalvador@edem.es,BBA in Business Administration,['Technology']
+727,728,Cruz Marí Coronado,male,19,1,cruzmarícoronado@edem.es,BBA in Business Administration,['Finance and Investment']
+728,729,Jose Angel de Álvaro,male,18,1,joseangeldeálvaro@edem.es,BSc in Engineering and Management,"['Marketing', 'Marketing', 'Finance and Investment', 'Technology', 'Management Skills']"
+729,730,Cleto Lucena-Gelabert,male,23,1,cletolucena-gelabert@edem.es,Master Marketing and Digital Sales,"['Management Skills', 'Technology', 'Finance and Investment']"
+730,731,Julio Pinedo Torralba,male,19,2,juliopinedotorralba@edem.es,BBA in Business Administration,"['Management Skills', 'Business Management']"
+731,732,Eric Lozano Mancebo,male,19,4,ericlozanomancebo@edem.es,BBA in Business Administration,"['Management Skills', 'Management Skills', 'Marketing', 'Marketing', 'Business Management']"
+732,733,Benito Leiva-Cantero,male,23,1,benitoleiva-cantero@edem.es,MBA Junior,"['Business Management', 'Management Skills', 'Finance and Investment', 'Technology', 'Management Skills']"
+733,734,Sarita Pomares Mate,female,18,3,saritapomaresmate@edem.es,BSc in Engineering and Management,"['Business Management', 'Business Management', 'Finance and Investment']"
