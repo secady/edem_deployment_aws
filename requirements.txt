@@ -1,0 +1,9 @@
+psycopg2-binary
+sqlalchemy
+numpy
+pandas
+requests
+matplotlib
+datetime
+flask
+
