@@ -27,7 +27,7 @@ def home():
     message = f"""
     Welcome! To extract data, please see the following instructions:
 
-    <br><br>endpoint: '/get_db_students' 
+    <br><br>endpoint: '/get_db_users' 
 
     
     """
@@ -35,8 +35,8 @@ def home():
 
 
 # ENDPOINT 2 - Get EDEM's students data (fake data)
-@app.route('/get_db_students', methods=['GET'])
-def get_db_students():
+@app.route('/get_db_users', methods=['GET'])
+def get_db_users():
     conn = psycopg2.connect(
         host=host,
         database=database,
@@ -45,7 +45,7 @@ def get_db_students():
         port=port
     )
 
-    result = pd.read_sql_query("SELECT * FROM students", conn)
+    result = pd.read_sql_query("SELECT * FROM users", conn)
     conn.close()
     return jsonify(result.to_dict(orient="records"))
 
