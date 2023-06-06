@@ -10,7 +10,7 @@ from flask import Flask, request, jsonify, send_file
 
 app = Flask(__name__)
 
-f = open("credentials/credentials_railway_hospitable-direction.txt")
+f = open("credentials/credentials_aws.txt")
 lines=f.readlines()
 host=lines[0][7:-1].strip()
 database=lines[1][11:].strip()
@@ -35,17 +35,16 @@ def home():
 
 
 # ENDPOINT 2 - Get EDEM's students data (fake data)
-@app.route('/get_db_users', methods=['GET'])
-def get_db_users():
+@app.route('/get_db_students', methods=['GET'])
+def get_db_students():
     conn = psycopg2.connect(
         host=host,
-        database=database,
         user=user,
         password=password,
         port=port
     )
 
-    result = pd.read_sql_query("SELECT * FROM users", conn)
+    result = pd.read_sql_query("SELECT * FROM students", conn)
     conn.close()
     return jsonify(result.to_dict(orient="records"))
 
