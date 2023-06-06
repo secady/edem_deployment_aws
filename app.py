@@ -10,7 +10,7 @@ from flask import Flask, request, jsonify, send_file
 
 app = Flask(__name__)
 
-f = open("credentials_railway_hospitable-direction.txt")
+f = open("credentials/credentials_railway_hospitable-direction.txt")
 lines=f.readlines()
 host=lines[0][7:-1].strip()
 database=lines[1][11:].strip()
