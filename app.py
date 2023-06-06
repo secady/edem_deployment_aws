@@ -27,7 +27,7 @@ def home():
     message = f"""
     Welcome! To extract data, please see the following instructions:
 
-    <br><br>endpoint: '/get_db_users' 
+    <br><br>endpoint: '/get_db_students' 
 
     
     """
