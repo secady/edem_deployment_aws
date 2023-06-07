@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import requests
 import matplotlib.pyplot as plt
+import json
 from datetime import datetime, timedelta, timezone
 from flask import Flask, request, jsonify, send_file
 
@@ -80,6 +81,13 @@ def get_db_students():
     conn.close()
     return jsonify(result.to_dict(orient="records"))
 
+
+# ENDPOINT 5 - Get Lanzadera/startups' data (scrap)
+@app.route('/get_scrap_startups', methods=['GET'])
+def get_scrap_startups():
+    with open("Scrap/startups_data.json", "r") as file:
+        result = json.load(file)  
+    return result
 
 
 if __name__ == '__main__':
