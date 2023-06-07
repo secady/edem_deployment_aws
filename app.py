@@ -31,7 +31,7 @@ def home():
     <br><br>endpoint: '/get_db_events' 
     <br><br>endpoint: '/get_db_categories' 
     <br><br>endpoint: '/get_db_students' 
-
+    <br><br>endpoint: '/get_scrap_startups'
     
     """
     return message
