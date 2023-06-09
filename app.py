@@ -85,7 +85,7 @@ def get_db_students():
 # ENDPOINT 5 - Get Lanzadera/startups' data (scrap)
 @app.route('/get_scrap_startups', methods=['GET'])
 def get_scrap_startups():
-    with open("Scrap\startups_by_rows.json", "r") as file:
+    with open("Scrap\startups_data.json", "r") as file:
         result = json.load(file)  
     return result
 
