@@ -105,8 +105,8 @@ df = pd.DataFrame({
 })
 
 # Y finalmente las convertimos en json y archivamos:
-df.to_json("startups_data.json", index=True)
-df.to_json("startups_by_rows.json", orient= "index")
+df.to_json("startups_data.json", index=True, force_ascii=False)
+df.to_json("startups_by_rows.json", orient= "index", force_ascii=False)
 
 # Cerramos:
 driver.close()

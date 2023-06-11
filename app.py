@@ -1,28 +1,10 @@
-import psycopg2
-from sqlalchemy import create_engine, text
-import pandas as pd
-import numpy as np
-import requests
-import matplotlib.pyplot as plt
-import json
-from datetime import datetime, timedelta, timezone
-from flask import Flask, request, jsonify, send_file
-
+from flask import Flask, jsonify
+from data import db, Database
+from Scrap import startups_scrap
+from config import error_handling
 
 app = Flask(__name__)
 
-f = open("credentials/credentials_aws.txt")
-lines=f.readlines()
-host=lines[0][7:-1].strip()
-database=lines[1][11:].strip()
-user=lines[2][7:].strip()
-password=lines[3][11:].strip()
-port=lines[4][7:].strip()
-url=lines[5][6:].strip()
-f.close()
-
-
-# ENDPOINT 1 - Home
 @app.route('/', methods=['GET'])
 def home():
     message = f"""
@@ -36,59 +18,60 @@ def home():
     """
     return message
 
+db = Database()
 
-# ENDPOINT 2 - Get EDEM's categories data (fake data)
 @app.route('/get_db_categories', methods=['GET'])
 def get_db_categories():
-    conn = psycopg2.connect(
-        host=host,
-        user=user,
-        password=password,
-        port=port
-    )
-
-    result = pd.read_sql_query("SELECT * FROM categories", conn)
-    conn.close()
-    return jsonify(result.to_dict(orient="records"))
+    result = db.get_categories()
+    db.close()
+    return jsonify(result)
 
 
-# ENDPOINT 3 - Get EDEM's events data (fake data)
 @app.route('/get_db_events', methods=['GET'])
 def get_db_events():
-    conn = psycopg2.connect(
-        host=host,
-        user=user,
-        password=password,
-        port=port
-    )
-
-    result = pd.read_sql_query("SELECT * FROM events", conn)
-    conn.close()
-    return jsonify(result.to_dict(orient="records"))
+    result = db.get_events()
+    db.close()
+    return jsonify(result)
 
 
-# ENDPOINT 4 - Get EDEM's students data (fake data)
 @app.route('/get_db_students', methods=['GET'])
 def get_db_students():
-    conn = psycopg2.connect(
-        host=host,
-        user=user,
-        password=password,
-        port=port
-    )
+    result = db.get_students()
+    db.close()
+    return jsonify(result)
 
-    result = pd.read_sql_query("SELECT * FROM students", conn)
-    conn.close()
-    return jsonify(result.to_dict(orient="records"))
-
-
-# ENDPOINT 5 - Get Lanzadera/startups' data (scrap)
 @app.route('/get_scrap_startups', methods=['GET'])
 def get_scrap_startups():
-    with open("Scrap\startups_by_rows.json", "r") as file:
+    with open("Scrap\startups_data.json", "r", encoding= "utf-8") as file:
         result = json.load(file)  
     return result
 
 
+def register_error_handlers(app):
+    @app.errorhandler(Exception)
+    def handle_exception_error(e):
+        return jsonify({'msg': 'Internal server error'}), 500
+
+    @app.errorhandler(405)
+    def handle_405_error(e):
+        return jsonify({'msg': 'Method not allowed'}), 405
+
+    @app.errorhandler(403)
+    def handle_403_error(e):
+        return jsonify({'msg': 'Forbidden error'}), 403
+
+    @app.errorhandler(404)
+    def handle_404_error(e):
+        return jsonify({'msg': 'Not Found error'}), 404
+
+    @app.errorhandler(AppErrorBaseClass)
+    def handle_app_base_error(e):
+        return jsonify({'msg': str(e)}), 500
+
+    @app.errorhandler(ObjectNotFound)
+    def handle_object_not_found_error(e):
+        return jsonify({'msg': str(e)}), 404
+
 if __name__ == '__main__':
     app.run(debug=True)
+
