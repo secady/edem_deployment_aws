@@ -134,5 +134,4 @@ class ModelScorer(BaseEstimator, TransformerMixin):
         return X
 
 
-columns = ['student_id', 'student_name', 'gender', 'age', 'year_of_study', 'school_email', 'personal_email', 'address', 'zip_code', 'prog_maj_id', 
-           'prog_maj_title', 'interests']
+columns = ['student_id', 'student_name', 'gender', 'age', 'year_of_study', 'school_email', 'personal_email', 'address', 'zip_code', 'prog_maj_id', 'prog_maj_title', 'interests']
