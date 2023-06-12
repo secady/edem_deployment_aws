@@ -1,10 +1,12 @@
-from flask import Flask, jsonify
-from data import db, Database
-from Scrap import startups_scrap
+from flask import Flask, jsonify, request
+from data.db import Database
 from config import error_handling
+from functions.bad_language import TextFilter
+import json
 
 app = Flask(__name__)
 
+# Página informativa de los endpoints:
 @app.route('/', methods=['GET'])
 def home():
     message = f"""
@@ -14,14 +16,16 @@ def home():
     <br><br>endpoint: '/get_db_categories' 
     <br><br>endpoint: '/get_db_students' 
     <br><br>endpoint: '/get_scrap_startups'
+    <br><br>endpoint: '/get_bad_language_filter' --> Params: "text"
     
     """
     return message
 
-db = Database()
+# Endpoints de recursos [GET]:
 
 @app.route('/get_db_categories', methods=['GET'])
 def get_db_categories():
+    db = Database()
     result = db.get_categories()
     db.close()
     return jsonify(result)
@@ -29,6 +33,7 @@ def get_db_categories():
 
 @app.route('/get_db_events', methods=['GET'])
 def get_db_events():
+    db = Database()
     result = db.get_events()
     db.close()
     return jsonify(result)
@@ -36,6 +41,7 @@ def get_db_events():
 
 @app.route('/get_db_students', methods=['GET'])
 def get_db_students():
+    db = Database()
     result = db.get_students()
     db.close()
     return jsonify(result)
@@ -46,6 +52,20 @@ def get_scrap_startups():
         result = json.load(file)  
     return result
 
+@app.route('/get_bad_language_filter', methods=['GET'])
+def get_bad_language_filter():
+    if "text" in str(request.args):
+        if request.args["text"] == "":
+            return "Please fill the text value"
+        else:
+            user_text = request.args["text"]
+            text_filter = TextFilter().filter_text(user_text)
+            return text_filter
+    else:
+        return "Error: 'text' parameter is missing or empty"
+
+
+# Control de errores:
 
 def register_error_handlers(app):
     @app.errorhandler(Exception)

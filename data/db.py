@@ -1,41 +1,35 @@
 import psycopg2
+import pandas as pd
+from credentials.Credentials import credentials_data
 
-
-host= "database-1.chaf71z5ycev.eu-north-1.rds.amazonaws.com"
-database= "database-1"
-user= "postgres"
-password= "edemdb1234"
-port= 5432
-url= "postgresql://postgres:edemdb1234@database-1.chaf71z5ycev.eu-north-1.rds.amazonaws.com:5432/"
-
-
+c = credentials_data()
 class Database:
     def __init__ (self):
-        self.database = database
-        self.url = url
+        self.database = c.databaser()
+        self.url = c.urler()
         self.con = psycopg2.connect(
-            host= host,
-            user= user,
-            password= password,
-            port= port
+            host= c.hoster(),
+            user= c.userer(),
+            password= c.passworder(),
+            port= c.porter()
         )
     def close (self):
         self.con.close()
 
     def get_categories (self):
         query = "SELECT * FROM categories"
-        cursor = self.con.cursor()
-        return cursor.execute(query).fetchall()
+        result = pd.read_sql_query(query, self.con)
+        return result.to_json()
 
     def get_events (self):
         query = "SELECT * FROM events"
-        cursor = self.con.cursor()
-        return cursor.execute(query).fetchall()
+        result = pd.read_sql_query(query, self.con)
+        return result.to_json()
 
     def get_students (self):
         query = "SELECT * FROM students"
-        cursor = self.con.cursor()
-        return cursor.execute(query).fetchall()
+        result = pd.read_sql_query(query, self.con)
+        return result.to_json()
     
 
 
