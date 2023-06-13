@@ -1,3 +1,0 @@
-https://edem-students-backend.vercel.app/users/getAll
-https://edem-students-backend.vercel.app/categories/getAll
-https://edem-students-backend.vercel.app/events/getAll

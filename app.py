@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request
 from data.db import Database
 from config import error_handling
 from functions.bad_language import TextFilter
+from functions.events_recommendation_class import EventRecommendation
 import json
 
 app = Flask(__name__)
@@ -51,6 +52,11 @@ def get_scrap_startups():
     with open("Scrap\startups_data.json", "r", encoding= "utf-8") as file:
         result = json.load(file)  
     return result
+
+@app.route('/get_recommendation_events', methods=['GET'])
+def get_recommendation_events():
+    student_dict = EventRecommendation().get_sorted_events_dict()
+    return jsonify(student_dict)
 
 
 if __name__ == '__main__':
