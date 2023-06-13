@@ -76,7 +76,7 @@ def recommend_users():
         # Convert the data to a DataFrame
         users_df = pd.DataFrame(data_users)
     else:
-        return 'Error: Failed to fetch data from the webpage'
+        return 'Error: Failed to fetch users data from the webpage'
     
     category_id_list = []
     category_name_list = []
@@ -113,7 +113,7 @@ def recommend_users():
         # Convert the data to a DataFrame
         programs_df = pd.DataFrame(data_programs)
     else:
-        return 'Error: Failed to fetch data from the webpage'
+        return 'Error: Failed to fetch programs data from the webpage'
 
     # Create a dictionary mapping program IDs to program names
     program_dict = dict(zip(programs_df["_id"], programs_df["name"]))
