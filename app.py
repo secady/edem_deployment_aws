@@ -7,7 +7,7 @@ import json
 
 app = Flask(__name__)
 
-# Página informativa de los endpoints:
+# Information page of the endpoints:
 @app.route('/', methods=['GET'])
 def home():
     message = f"""
@@ -18,12 +18,13 @@ def home():
     <br><br>endpoint: '/get_db_students' 
     <br><br>endpoint: '/get_scrap_startups'
     <br><br>endpoint: '/get_bad_language_filter' --> Params: "text"
+    <br><br>endpoint: '/recommend_users' 
     
     """
     return message
 
-# Endpoints de recursos [GET]:
 
+# ENDPOINT 1 - Get a dict with the table "categories"
 @app.route('/get_db_categories', methods=['GET'])
 def get_db_categories():
     db = Database()
@@ -31,7 +32,7 @@ def get_db_categories():
     db.close()
     return jsonify(result)
 
-
+# ENDPOINT 2 - Get a dict with the table "events"
 @app.route('/get_db_events', methods=['GET'])
 def get_db_events():
     db = Database()
@@ -39,7 +40,7 @@ def get_db_events():
     db.close()
     return jsonify(result)
 
-
+# ENDPOINT 3 - Get a dict with the table "students"
 @app.route('/get_db_students', methods=['GET'])
 def get_db_students():
     db = Database()
@@ -47,17 +48,97 @@ def get_db_students():
     db.close()
     return jsonify(result)
 
+# ENDPOINT 4 - Get a dict with information of start-ups
 @app.route('/get_scrap_startups', methods=['GET'])
 def get_scrap_startups():
     with open("Scrap\startups_data.json", "r", encoding= "utf-8") as file:
         result = json.load(file)  
     return result
 
+# ENDPOINT 5 - Get a dict of ordered events by recomendation
 @app.route('/get_recommendation_events', methods=['GET'])
 def get_recommendation_events():
     student_dict = EventRecommendation().get_sorted_events_dict()
     return jsonify(student_dict)
 
+# ENDPOINT 6 - Recommend similar users
+@app.route('/recommend_users', methods=['GET'])
+def recommend_users():
+    model = load('models/pipeline.pkl') 
+    url_users = "https://edem-students-backend.vercel.app/users/dataGetAll"
+    headers = {"Authorization": "desafio2023"}
+    payload = ""
+    response = requests.get(url_users,headers=headers, data=payload)
+
+    # Check if the request was successful (status code 200)
+    if response.status_code == 200:
+        data_users = response.json()  # Assuming the response contains JSON data
+        # Convert the data to a DataFrame
+        users_df = pd.DataFrame(data_users)
+    else:
+        return 'Error: Failed to fetch data from the webpage'
+    
+    category_id_list = []
+    category_name_list = []
+
+    # Iterate over each event row
+    for user in users_df["categoryIds"]:
+        category_ids = []
+        category_names = []
+
+        # Iterate over each category in the event
+        for category in user:
+            category_ids.append(category["_id"])
+            category_names.append(category["name"])
+
+        # Append the category details to the lists
+        category_id_list.append(category_ids)
+        category_name_list.append(category_names)
+
+    # Assign the category details to the DataFrame
+    users_df["category_id"] = category_id_list
+    users_df["category_name"] = category_name_list
+
+    #programs ----------------------------------------------------------
+    url_programs = "https://edem-students-backend.vercel.app/programs/dataGetAll"
+    headers = {"Authorization": "desafio2023"}
+    payload = ""
+
+    response = requests.get(url_programs,headers=headers, data=payload)
+
+    # Check if the request was successful (status code 200)
+    if response.status_code == 200:
+        data_programs = response.json()  # Assuming the response contains JSON data
+        
+        # Convert the data to a DataFrame
+        programs_df = pd.DataFrame(data_programs)
+    else:
+        return 'Error: Failed to fetch data from the webpage'
+
+    # Create a dictionary mapping program IDs to program names
+    program_dict = dict(zip(programs_df["_id"], programs_df["name"]))
+
+    # Use the map function to create the new column "program_name"
+    users_df["program_name"] = users_df["program"].map(program_dict)
+    #---------------------------------------------------------------------
+    users_id = users_df['_id']
+    users_df.drop(['role','chatIds','roleMde','program','connections','eventIds','confirmed','createdAt','updatedAt','__v','image','bio','category_id'],1,inplace=True)
+    users_df.rename(columns={'_id': 'student_id','categoryIds': 'category_id','category_name':'category','program_name':'programme'},inplace=True, errors='raise')
+
+    # Define the mapping of values to labels
+    mapping = {'1': '1st year', '2': '2nd year', '3': '3rd year', '4': '4th year'}
+
+    # Replace values in the 'year_of_study' column
+    users_df['year'] = users_df['year'].replace(mapping)
+    users_df = users_df.dropna()
+    users_df = model.transform(users_df)
+    df_final = pd.DataFrame(users_df,columns=['cluster'])
+    df_final['_id'] = users_id
+    # Convert DataFrame to JSON
+    json_data = df_final.to_json(orient='records')
+    # Return JSON response
+    return json_data
+    
 
 if __name__ == '__main__':
     app.run(debug=True)
