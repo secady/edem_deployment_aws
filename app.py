@@ -80,7 +80,7 @@ def get_bad_language_filter():
 # ENDPOINT 7 - Recommend similar users
 @app.route('/recommend_users', methods=['GET'])
 def recommend_users():
-    model = load('models/pipeline.pkl') 
+    model = load('pipeline.pkl') 
     url_users = "https://edem-students-backend.vercel.app/users/dataGetAll"
     headers = {"Authorization": "desafio2023"}
     payload = ""
@@ -155,7 +155,6 @@ def recommend_users():
     # Return JSON response
     return json_data
     
-
 if __name__ == '__main__':
     app.run(debug=True)
 
