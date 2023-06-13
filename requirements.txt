@@ -6,4 +6,6 @@ requests
 matplotlib
 datetime
 flask
+spanlp
+better-profanity
 
