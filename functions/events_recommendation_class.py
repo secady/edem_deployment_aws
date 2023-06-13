@@ -1,3 +1,6 @@
+import requests
+import pandas as pd
+import numpy as np
 class EventRecommendation:
     def __init__(self):
         self.event_recommendation_df = None
