@@ -8,4 +8,5 @@ datetime
 flask
 spanlp
 better-profanity
+joblib
 
