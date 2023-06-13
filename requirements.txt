@@ -1,12 +1,12 @@
 psycopg2-binary
 sqlalchemy
-numpy
 pandas
-requests
 matplotlib
 datetime
 flask
 spanlp
 better-profanity
 joblib
-
+selenium
+webdriver-manager
+beautifulsoup4
