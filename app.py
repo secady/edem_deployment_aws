@@ -3,7 +3,10 @@ from data.db import Database
 from config import error_handling
 from functions.bad_language import TextFilter
 from functions.events_recommendation_class import EventRecommendation
+from joblib import load
 import json
+import pandas as pd
+import requests
 
 app = Flask(__name__)
 
@@ -17,6 +20,7 @@ def home():
     <br><br>endpoint: '/get_db_categories' 
     <br><br>endpoint: '/get_db_students' 
     <br><br>endpoint: '/get_scrap_startups'
+    <br><br>endpoint: '/get_recommendation_events'
     <br><br>endpoint: '/get_bad_language_filter' --> Params: "text"
     <br><br>endpoint: '/recommend_users' 
     
@@ -61,7 +65,19 @@ def get_recommendation_events():
     student_dict = EventRecommendation().get_sorted_events_dict()
     return jsonify(student_dict)
 
-# ENDPOINT 6 - Recommend similar users
+# ENDPOINT 6 - Bad language filter (English & Spanish)
+@app.route('/get_bad_language_filter', methods=['GET'])
+def get_bad_language_filter():
+    if "text" in request.args:
+        if request.args["text"] == "":
+            return "Please fill the text value"
+        else:
+            user_text = request.args["text"]
+            text_filter = TextFilter().filter_text(user_text)
+            return text_filter
+    else:
+        return "Error: 'text' parameter is missing or empty"
+# ENDPOINT 7 - Recommend similar users
 @app.route('/recommend_users', methods=['GET'])
 def recommend_users():
     model = load('models/pipeline.pkl') 
