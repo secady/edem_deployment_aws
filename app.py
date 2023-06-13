@@ -3,6 +3,7 @@ from data.db import Database
 from config import error_handling
 from functions.bad_language import TextFilter
 from functions.events_recommendation_class import EventRecommendation
+from sqlalchemy import create_engine, text, MetaData
 from joblib import load
 import json
 import pandas as pd
@@ -55,9 +56,18 @@ def get_db_students():
 # ENDPOINT 4 - Get a dict with information of start-ups
 @app.route('/get_scrap_startups', methods=['GET'])
 def get_scrap_startups():
-    with open("Scrap\startups_data.json", "r", encoding= "utf-8") as file:
-        result = json.load(file)  
-    return result
+    engine = create_engine("postgresql://postgres:edemdb1234@database-1.chaf71z5ycev.eu-north-1.rds.amazonaws.com:5432/")
+    with engine.connect() as connection:
+        cursor = connection.execute(text("select * from scrapped"))
+        data = cursor.fetchall() 
+        connection.close()
+    result = {}
+    labels = ['name', 'phase', 'topics', 'description', 'url', 'logo_link']
+    for ind,row in enumerate(data):
+        result[str(ind)] = {}
+        for ind_2,value in enumerate(row[1:]):
+            result[str(ind)][labels[ind_2]] = value
+    return jsonify(result)
 
 # ENDPOINT 5 - Get a list of events ids ordenated by preference given a requested student id
 @app.route('/get_recommendation_events', methods=['GET'])
