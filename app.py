@@ -20,7 +20,7 @@ def home():
     <br><br>endpoint: '/get_db_categories' 
     <br><br>endpoint: '/get_db_students' 
     <br><br>endpoint: '/get_scrap_startups'
-    <br><br>endpoint: '/get_recommendation_events'
+    <br><br>endpoint: '/get_recommendation_events' --> Params: "requested_student_id"
     <br><br>endpoint: '/get_bad_language_filter' --> Params: "text"
     <br><br>endpoint: '/recommend_users' 
     
@@ -59,11 +59,15 @@ def get_scrap_startups():
         result = json.load(file)  
     return result
 
-# ENDPOINT 5 - Get a dict of ordered events by recomendation
+# ENDPOINT 5 - Get a list of events ids ordenated by preference given a requested student id
 @app.route('/get_recommendation_events', methods=['GET'])
 def get_recommendation_events():
-    student_dict = EventRecommendation().get_sorted_events_dict()
-    return jsonify(student_dict)
+    event_recommendation = EventRecommendation()
+    requested_student_id = request.args.get('requested_student_id')
+
+    interests_list = event_recommendation.get_interests_for_student(requested_student_id)
+    
+    return jsonify(interests_list)
 
 # ENDPOINT 6 - Bad language filter (English & Spanish)
 @app.route('/get_bad_language_filter', methods=['GET'])

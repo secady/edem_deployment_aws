@@ -1,12 +1,13 @@
-import requests
 import pandas as pd
 import numpy as np
+import requests
+
+
 class EventRecommendation:
     def __init__(self):
         self.event_recommendation_df = None
 
-    def get_sorted_events_dict(self):
-
+    def get_interests_for_student(self, requested_student_id):
         # Make a GET request to the webpage
         url = 'https://edem-students-backend.vercel.app/users/dataGetAll' 
         headers = {'Authorization':'desafio2023'}
@@ -21,6 +22,7 @@ class EventRecommendation:
             students_df = pd.DataFrame(data)
         else:
             print('Error: Failed to fetch data from the webpage')
+            return []
 
         # Make a GET request to the webpage
         url = 'https://edem-students-backend.vercel.app/events/dataGetAll'
@@ -36,8 +38,7 @@ class EventRecommendation:
             events_df = pd.DataFrame(data)
         else:
             print('Error: Failed to fetch data from the webpage')
-
-
+            return []
 
         # Initialize empty lists for category details
         category_id_list = []
@@ -62,8 +63,8 @@ class EventRecommendation:
         students_df["category_name"] = category_name_list
 
         # Interests ids
-        specific_interests= ['64805c99a7607c035063190c', '64805c99a7607c035063190d', '64805c99a7607c035063190e', '64805c99a7607c035063190f', '64805c99a7607c0350631910', '64805c99a7607c0350631911', '64805c99a7607c0350631912', '64805c99a7607c0350631913', '64805c99a7607c0350631914', '64805c99a7607c0350631915', '64805c99a7607c0350631916', '64805c99a7607c0350631917', '64805c99a7607c0350631918', '64805c99a7607c0350631919', '64805c99a7607c035063191a', '64805c99a7607c035063191b']
-        
+        specific_interests = ['64805c99a7607c035063190c', '64805c99a7607c035063190d', '64805c99a7607c035063190e', '64805c99a7607c035063190f', '64805c99a7607c0350631910', '64805c99a7607c0350631911', '64805c99a7607c0350631912', '64805c99a7607c0350631913', '64805c99a7607c0350631914', '64805c99a7607c0350631915', '64805c99a7607c0350631916', '64805c99a7607c0350631917', '64805c99a7607c0350631918', '64805c99a7607c0350631919', '64805c99a7607c035063191a', '64805c99a7607c035063191b']
+
         # Creation of categorical columns for each interest ids for students_df
         for interest in specific_interests:
             students_df[interest] = students_df['category_id'].apply(lambda x: 1 if interest in x else 0)
@@ -76,8 +77,8 @@ class EventRecommendation:
         events_df.drop('categoryIds', axis=1, inplace=True)
         events_df = events_df.rename(columns={'_id': 'event_id'})
 
-        students_df = students_df.drop([ 'name', 'surname', 'email', 'age', 'gender', 'role', 'roleMde','program', 'year', 'connections', 'eventIds','confirmed', 'createdAt', 'updatedAt', '__v', 'image', 'bio', 'chatIds', 'category_name','categoryIds','category_id'], axis=1).copy()
-        events_df = events_df.drop([ 'title', 'description', 'date', 'url', '__v','createdAt', 'updatedAt', 'image', 'userIds'], axis=1).copy()
+        students_df = students_df.drop(['name', 'surname', 'email', 'age', 'gender', 'role', 'roleMde', 'program', 'year', 'connections', 'eventIds', 'confirmed', 'createdAt', 'updatedAt', '__v', 'image', 'bio', 'chatIds', 'category_name', 'categoryIds', 'category_id'], axis=1).copy()
+        events_df = events_df.drop(['title', 'description', 'date', 'url', '__v', 'createdAt', 'updatedAt', 'image', 'userIds'], axis=1).copy()
 
         event_recommendation_df = pd.DataFrame(columns=['student_id'] + list(events_df['event_id']))
         for student in students_df.itertuples():
@@ -98,10 +99,15 @@ class EventRecommendation:
             events_sorted = [event_recommendation_df.columns[index+1] for index in events_sorted_indices]
             sorted_events_list.append((student_id, events_sorted[::-1]))
 
-        # Create a dictonary that contains the student id and all the events ids in order of preference
+        # Create a dictionary that contains the student id and all the events ids in order of preference
         student_dict = {}
         for student_events in sorted_events_list:
             student_id, events_sorted_list = student_events
             student_dict[student_id] = events_sorted_list
 
-        return student_dict
+        if requested_student_id in student_dict:
+            interests_list = student_dict[requested_student_id]
+            return interests_list
+        else:
+            print('Error: Student ID not found')
+            return []
