@@ -95,21 +95,8 @@ def get_bad_language_filter():
 # ENDPOINT 7 - Recommend similar users
 @app.route('/recommend_users', methods=['GET'])
 def recommend_users():
-    model = load('pipeline.pkl') 
-    url_users = "https://edem-students-backend.vercel.app/users/dataGetAll"
-    headers = {"Authorization": "desafio2023"}
-    payload = ""
-    response = requests.get(url_users,headers=headers, data=payload)
-
-    # Check if the request was successful (status code 200)
-    if response.status_code == 200:
-        data_users = response.json()  # Assuming the response contains JSON data
-        # Convert the data to a DataFrame
-        users_df = pd.DataFrame(data_users)
-    else:
-        return 'Error: Failed to fetch users data from the webpage'
-    
-    return 'Conexion usuarios ok'
+    json_data = RecommendUsers()
+    return json_data
     
 if __name__ == '__main__':
     app.run(debug=True)
