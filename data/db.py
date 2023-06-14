@@ -1,8 +1,7 @@
 import psycopg2
 import pandas as pd
 from credentials.Credentials import credentials_data
-from flask import jsonify
-import json
+
 
 c = credentials_data()
 class Database:
@@ -33,10 +32,7 @@ class Database:
         result = pd.read_sql_query(query, self.con)
         return result.to_json()
 
-    def get_startups (self):
-        query = "SELECT * FROM scrapped"
-        result = pd.read_sql_query(query, self.con)
-        return result.to_json
+ 
     
 
 
