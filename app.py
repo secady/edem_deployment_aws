@@ -109,66 +109,7 @@ def recommend_users():
     else:
         return 'Error: Failed to fetch users data from the webpage'
     
-    category_id_list = []
-    category_name_list = []
-
-    # Iterate over each event row
-    for user in users_df["categoryIds"]:
-        category_ids = []
-        category_names = []
-
-        # Iterate over each category in the event
-        for category in user:
-            category_ids.append(category["_id"])
-            category_names.append(category["name"])
-
-        # Append the category details to the lists
-        category_id_list.append(category_ids)
-        category_name_list.append(category_names)
-
-    # Assign the category details to the DataFrame
-    users_df["category_id"] = category_id_list
-    users_df["category_name"] = category_name_list
-
-    #programs ----------------------------------------------------------
-    url_programs = "https://edem-students-backend.vercel.app/programs/dataGetAll"
-    headers = {"Authorization": "desafio2023"}
-    payload = ""
-
-    response = requests.get(url_programs,headers=headers, data=payload)
-
-    # Check if the request was successful (status code 200)
-    if response.status_code == 200:
-        data_programs = response.json()  # Assuming the response contains JSON data
-        
-        # Convert the data to a DataFrame
-        programs_df = pd.DataFrame(data_programs)
-    else:
-        return 'Error: Failed to fetch programs data from the webpage'
-
-    # Create a dictionary mapping program IDs to program names
-    program_dict = dict(zip(programs_df["_id"], programs_df["name"]))
-
-    # Use the map function to create the new column "program_name"
-    users_df["program_name"] = users_df["program"].map(program_dict)
-    #---------------------------------------------------------------------
-    users_id = users_df['_id']
-    users_df.drop(['role','chatIds','roleMde','program','connections','eventIds','confirmed','createdAt','updatedAt','__v','image','bio','category_id'],axis=1,inplace=True)
-    users_df.rename(columns={'_id': 'student_id','categoryIds': 'category_id','category_name':'category','program_name':'programme'},inplace=True, errors='raise')
-
-    # Define the mapping of values to labels
-    mapping = {'1': '1st year', '2': '2nd year', '3': '3rd year', '4': '4th year'}
-
-    # Replace values in the 'year_of_study' column
-    users_df['year'] = users_df['year'].replace(mapping)
-    users_df = users_df.dropna()
-    users_df = model.transform(users_df)
-    df_final = pd.DataFrame(users_df,columns=['cluster'])
-    df_final['_id'] = users_id
-    # Convert DataFrame to JSON
-    json_data = df_final.to_json(orient='records')
-    # Return JSON response
-    return json_data
+    return 'Conexion usuarios ok'
     
 if __name__ == '__main__':
     app.run(debug=True)
