@@ -224,6 +224,7 @@ class RecommendUsers():
             clusters_dict[cluster] = list(group["_id"])
         for list_users in clusters_dict.values():
             if requested_student_id in list_users:
+                list_users.remove(requested_student_id)
                 return list_users
             else:
                 continue
