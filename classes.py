@@ -178,7 +178,7 @@ class RecommendUsers():
         headers = {"Authorization": "desafio2023"}
         payload = ""
 
-        response = requests.get(url_programs,headers=headers, data=payload)
+        response = requests.get(url=url_programs,headers=headers, data=payload)
 
         # Check if the request was successful (status code 200)
         if response.status_code == 200:
