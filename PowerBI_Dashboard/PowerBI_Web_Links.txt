@@ -1,0 +1,10 @@
+Link to Power BI web dashboard: 
+https://app.powerbi.com/groups/me/reports/57c1f4d6-0a96-4f9b-8cec-22d7d07974da?ctid=a06d50a5-a681-470a-b9e3-13d6353bc9c8&pbi_source=linkShare
+
+
+Here's a link you can use to embed this content:
+https://app.powerbi.com/reportEmbed?reportId=57c1f4d6-0a96-4f9b-8cec-22d7d07974da&autoAuth=true&ctid=a06d50a5-a681-470a-b9e3-13d6353bc9c8
+
+
+HTML you can paste into a website:
+<iframe title="admin_dashboard" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=57c1f4d6-0a96-4f9b-8cec-22d7d07974da&autoAuth=true&ctid=a06d50a5-a681-470a-b9e3-13d6353bc9c8" frameborder="0" allowFullScreen="true"></iframe>
