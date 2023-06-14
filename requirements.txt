@@ -10,3 +10,4 @@ joblib
 selenium
 webdriver-manager
 beautifulsoup4
+scikit-learn
