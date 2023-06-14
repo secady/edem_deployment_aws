@@ -96,8 +96,9 @@ def get_bad_language_filter():
 # ENDPOINT 7 - Recommend similar users
 @app.route('/recommend_users', methods=['GET'])
 def recommend_users():
-    json_data = RecommendUsers()
-    return json_data.users()
+    requested_student_id = request.args.get('requested_student_id')
+    friends_list = RecommendUsers().group_users(requested_student_id=requested_student_id)
+    return friends_list
     
 if __name__ == '__main__':
     app.run(debug=True)
