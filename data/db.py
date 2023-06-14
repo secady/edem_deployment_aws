@@ -1,11 +1,13 @@
 import psycopg2
 import pandas as pd
 from credentials.Credentials import credentials_data
+from flask import jsonify
+import json
 
 c = credentials_data()
 class Database:
     def __init__ (self):
-        self.database = c.databaser()
+        database = c.databaser()
         self.url = c.urler()
         self.con = psycopg2.connect(
             host= c.hoster(),
@@ -30,6 +32,11 @@ class Database:
         query = "SELECT * FROM students"
         result = pd.read_sql_query(query, self.con)
         return result.to_json()
+
+    def get_startups (self):
+        query = "SELECT * FROM scrapped"
+        result = pd.read_sql_query(query, self.con)
+        return result.to_json
     
 
 
