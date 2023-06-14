@@ -198,7 +198,7 @@ class RecommendUsers():
         users_df["program_name"] = users_df["program"].map(program_dict)
         #---------------------------------------------------------------------
         users_id = users_df['_id']
-        users_df.drop(['role','chatIds','roleMde','program','connections','eventIds','confirmed','createdAt','updatedAt','__v','image','bio','category_id'],1,inplace=True)
+        users_df.drop(['role','chatIds','roleMde','program','connections','eventIds','confirmed','createdAt','updatedAt','__v','image','bio','category_id'],axis= 1,inplace=True)
         users_df.rename(columns={'_id': 'student_id','categoryIds': 'category_id','category_name':'category','program_name':'programme'},inplace=True, errors='raise')
 
         # Define the mapping of values to labels

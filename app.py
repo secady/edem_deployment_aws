@@ -97,7 +97,7 @@ def get_bad_language_filter():
 @app.route('/recommend_users', methods=['GET'])
 def recommend_users():
     json_data = RecommendUsers()
-    return json_data
+    return json_data.users()
     
 if __name__ == '__main__':
     app.run(debug=True)
