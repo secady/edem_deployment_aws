@@ -180,7 +180,7 @@ class RecommendUsers():
         headers = {"Authorization": "desafio2023"}
         payload = ""
 
-        response = requests.get(url=url_programs,headers=headers, data=payload)
+        response = requests.get(url_programs,headers=headers, data=payload)
 
         # Check if the request was successful (status code 200)
         if response.status_code == 200:
@@ -198,7 +198,7 @@ class RecommendUsers():
         users_df["program_name"] = users_df["program"].map(program_dict)
         #---------------------------------------------------------------------
         users_id = users_df['_id']
-        users_df.drop(['role','chatIds','roleMde','program','connections','eventIds','confirmed','createdAt','updatedAt','__v','image','bio','category_id'],axis= 1,inplace=True)
+        users_df.drop(['role','chatIds','roleMde','program','connections','eventIds','confirmed','createdAt','updatedAt','__v','image','bio','category_id'],axis=1,inplace=True)
         users_df.rename(columns={'_id': 'student_id','categoryIds': 'category_id','category_name':'category','program_name':'programme'},inplace=True, errors='raise')
 
         # Define the mapping of values to labels
@@ -210,7 +210,20 @@ class RecommendUsers():
         users_df = model.transform(users_df)
         df_final = pd.DataFrame(users_df,columns=['cluster'])
         df_final['_id'] = users_id
-        # Convert DataFrame to JSON
-        json_data = df_final.to_json(orient='records')
-        # Return JSON response
-        return json_data
+
+        return df_final
+    
+    def group_users(self,requested_student_id):
+        df_final = self.users()
+        # Step 1: Group DataFrame by "cluster" column
+        grouped_clusters = df_final.groupby(["cluster"])
+        
+        #Step 2: Create dictionary of clusters and user_ids
+        clusters_dict = {}
+        for cluster, group in grouped_clusters:
+            clusters_dict[cluster] = list(group["_id"])
+        for list_users in clusters_dict.values():
+            if requested_student_id in list_users:
+                return list_users
+            else:
+                continue
