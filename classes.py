@@ -7,6 +7,8 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import silhouette_score
 from sklearn.cluster import KMeans
 from sqlalchemy import create_engine,text
+from joblib import load
+import requests
 
 class InterestsTransformer():
     def __init__(self, columns):
