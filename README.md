@@ -12,5 +12,5 @@ Here are the tasks done by Data Science team:
    - Lanzadera's startup company database --> we collected this data using web scraping technique
    - Recommendation to add friends --> we used Machine Learning for this task
    - Event recommendation --> We used our own code for this task
-   - Bad words filter to ensure that all the posts in the social media post do not contain inappropriate words --> we used a NLP library for this task
+   - Bad words filter to ensure that all the posts in the social media do not contain inappropriate words --> we used a NLP library for this task
 3. All the above data was provided through API (Application Programming Interface) to the Full-Stack team in which we used AWS EC2 Virtual Machine for cloud deployment.
